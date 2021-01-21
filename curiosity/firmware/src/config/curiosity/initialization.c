@@ -178,6 +178,8 @@ void SYS_Initialize ( void* data )
 
 	GPIO_Initialize();
 
+    TMR2_Initialize();
+
 	UART6_Initialize();
 
 
@@ -187,6 +189,7 @@ void SYS_Initialize ( void* data )
     APP_Initialize();
     APP1_Initialize();
     APP2_Initialize();
+    APP3_Initialize();
 
 
     EVIC_Initialize();

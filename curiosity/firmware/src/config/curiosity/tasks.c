@@ -63,25 +63,41 @@
 /* Handle for the APP_Tasks. */
 TaskHandle_t xAPP_Tasks;
 
-void _APP_Tasks(void *pvParameters) {
-    while (1) {
+void _APP_Tasks(  void *pvParameters  )
+{   
+    while(1)
+    {
         APP_Tasks();
     }
 }
 /* Handle for the APP1_Tasks. */
 TaskHandle_t xAPP1_Tasks;
 
-void _APP1_Tasks(void *pvParameters) {
-    while (1) {
+void _APP1_Tasks(  void *pvParameters  )
+{   
+    while(1)
+    {
         APP1_Tasks();
     }
 }
 /* Handle for the APP2_Tasks. */
 TaskHandle_t xAPP2_Tasks;
 
-void _APP2_Tasks(void *pvParameters) {
-    while (1) {
+void _APP2_Tasks(  void *pvParameters  )
+{   
+    while(1)
+    {
         APP2_Tasks();
+    }
+}
+/* Handle for the APP3_Tasks. */
+TaskHandle_t xAPP3_Tasks;
+
+void _APP3_Tasks(  void *pvParameters  )
+{   
+    while(1)
+    {
+        APP3_Tasks();
     }
 }
 
@@ -101,20 +117,13 @@ void _APP2_Tasks(void *pvParameters) {
   Remarks:
     See prototype in system/common/sys_module.h.
  */
+
 void SYS_Tasks(void) {
     /* Maintain system services */
-    xuart6Mutex = xSemaphoreCreateMutex();
+    uart6Queue = xQueueCreate( 5, sizeof( struct Packet ) );
 
-
-    /* Maintain Device Drivers */
-
-
-    /* Maintain Middleware & Other Libraries */
-
-
-    /* Maintain the application's state machine. */
     /* Create OS Thread for APP_Tasks. */
-    if (xuart6Mutex != NULL) {
+    if (uart6Queue != NULL) {
         xTaskCreate((TaskFunction_t) _APP_Tasks,
                 "APP_Tasks",
                 250,
@@ -137,6 +146,14 @@ void SYS_Tasks(void) {
                 NULL,
                 1,
                 &xAPP2_Tasks);
+
+    /* Create OS Thread for APP3_Tasks. */
+    xTaskCreate((TaskFunction_t) _APP3_Tasks,
+                "APP3_Tasks",
+                1024,
+                NULL,
+                1,
+                &xAPP3_Tasks);
 
 
 

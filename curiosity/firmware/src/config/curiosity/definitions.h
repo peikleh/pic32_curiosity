@@ -48,6 +48,7 @@
 #include <stdint.h>
 #include <stddef.h>
 #include <stdbool.h>
+#include "peripheral/tmr/plib_tmr2.h"
 #include "peripheral/clk/plib_clk.h"
 #include "peripheral/gpio/plib_gpio.h"
 #include "peripheral/evic/plib_evic.h"
@@ -57,7 +58,7 @@
 #include "app.h"
 #include "app1.h"
 #include "app2.h"
-#include "semphr.h"
+#include "app3.h"
 
 
 

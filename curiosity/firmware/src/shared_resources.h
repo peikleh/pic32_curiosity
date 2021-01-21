@@ -26,9 +26,21 @@
 /* ************************************************************************** */
 #include "definitions.h" 
 #include "semphr.h"
+//#define portCONFIGURE_TIMER_FOR_RUN_TIME_STATS() TMR2_Initialize();
 SemaphoreHandle_t xuart6Mutex;
+QueueHandle_t uart6Queue;
 
+volatile uint32_t ulOverflowCount;
+
+
+struct Packet {
+    uint8_t *message;
+    uint16_t length;
+};
 void protectedUart6Write(void* buffer, const size_t size);
+
+uint32_t RTOS_AppGetRuntimeCounterValueFromISR(void);
+
     /* Provide C++ Compatibility */
 #ifdef __cplusplus
 }

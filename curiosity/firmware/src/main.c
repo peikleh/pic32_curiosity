@@ -34,6 +34,18 @@
 // *****************************************************************************
 // *****************************************************************************
 
+extern uint32_t getValue(void){
+    uint32_t countValue = 0;
+    TMR2_Stop();
+    countValue = ulOverflowCount << 16UL;
+    countValue |= (unsigned long) TMR2_CounterGet();
+    TMR2_Start();
+    return countValue;
+}
+void initializeTimer(void){
+    TMR2_Initialize();
+}
+
 int main ( void )
 {
     /* Initialize all modules */

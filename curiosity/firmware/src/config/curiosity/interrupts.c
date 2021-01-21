@@ -59,6 +59,7 @@
 // *****************************************************************************
 
 
+void TIMER_2_InterruptHandler( void );
 void UART6_FAULT_InterruptHandler( void );
 void UART6_RX_InterruptHandler( void );
 void UART6_TX_InterruptHandler( void );
@@ -67,6 +68,11 @@ void UART6_TX_InterruptHandler( void );
 
 /* All the handlers are defined here.  Each will call its PLIB-specific function. */
 
+
+void TIMER_2_Handler (void)
+{
+    TIMER_2_InterruptHandler();
+}
 
 void UART6_FAULT_Handler (void)
 {
