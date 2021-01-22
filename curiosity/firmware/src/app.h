@@ -37,7 +37,7 @@
 #include "task.h"
 #include "queue.h"
 #include "shared_resources.h"
-
+TickType_t xLastExecutionTime;
 
 // DOM-IGNORE-BEGIN
 #ifdef __cplusplus  // Provide C++ Compatibility

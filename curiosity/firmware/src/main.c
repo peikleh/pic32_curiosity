@@ -34,7 +34,7 @@
 // *****************************************************************************
 // *****************************************************************************
 
-extern uint32_t getValue(void){
+uint32_t getValue(void){
     uint32_t countValue = 0;
     TMR2_Stop();
     countValue = ulOverflowCount << 16UL;

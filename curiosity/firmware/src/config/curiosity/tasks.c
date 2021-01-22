@@ -64,7 +64,7 @@
 TaskHandle_t xAPP_Tasks;
 
 void _APP_Tasks(  void *pvParameters  )
-{   
+{   xLastExecutionTime = xTaskGetTickCount();
     while(1)
     {
         APP_Tasks();

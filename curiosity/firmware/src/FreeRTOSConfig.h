@@ -73,8 +73,8 @@
 
 /* Run time and task stats gathering related definitions. */
 #define configGENERATE_RUN_TIME_STATS           1
-#define configUSE_TRACE_FACILITY                0
-#define configUSE_STATS_FORMATTING_FUNCTIONS    0
+#define configUSE_TRACE_FACILITY                1
+#define configUSE_STATS_FORMATTING_FUNCTIONS    1
 
 /* Co-routine related definitions. */
 #define configUSE_CO_ROUTINES                   0
@@ -122,7 +122,7 @@
 
 extern void initializeTimer(void);
 #define portCONFIGURE_TIMER_FOR_RUN_TIME_STATS()   initializeTimer()
-
-#define portGET_RUN_TIME_COUNTER_VALUE()           PR2
+extern uint32_t getValue(void);                    
+#define portGET_RUN_TIME_COUNTER_VALUE()           getValue()
 
 #endif /* FREERTOS_H */

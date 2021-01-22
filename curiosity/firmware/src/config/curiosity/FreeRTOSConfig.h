@@ -120,9 +120,9 @@
 #define INCLUDE_uxTaskGetStackHighWaterMark2    0
 #define INCLUDE_xTaskResumeFromISR              1
 
-//extern void initializeTimer(void);
-//#define portCONFIGURE_TIMER_FOR_RUN_TIME_STATS()   initializeTimer()
 
-//#define portGET_RUN_TIME_COUNTER_VALUE()           PR2
+//#define portCONFIGURE_TIMER_FOR_RUN_TIME_STATS()   0
+
+//#define portGET_RUN_TIME_COUNTER_VALUE()           1
 
 #endif /* FREERTOS_H */
