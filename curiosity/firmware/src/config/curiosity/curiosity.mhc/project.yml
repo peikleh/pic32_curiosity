@@ -131,7 +131,7 @@ files:
   physicalPath: peripheral\tmr
   security: NON_SECURE
   type: SOURCE
-  userChecksum: 1B14CC3C91E9152364512D925311D98C
+  userChecksum: F92F665154805D4E433E5A15F3281B58
 - generatedChecksum: 612E1E79AEE98CD13A910133658F15E6
   logicalPath: config\curiosity\peripheral\uart
   name: plib_uart6.c
@@ -173,7 +173,7 @@ files:
   physicalPath: ''
   security: NON_SECURE
   type: SOURCE
-  userChecksum: 274F04BF7BE9D6B4044A01A38EEB9713
+  userChecksum: 15461959F40EADBE91AA64434270C120
 - generatedChecksum: F1B86F6E1527FD59A8713B67564F2898
   logicalPath: FreeRTOS\Source
   name: timers.c
@@ -201,7 +201,7 @@ files:
   physicalPath: ''
   security: NON_SECURE
   type: HEADER
-  userChecksum: D6226E57BAEE52BF8B845DADFCADFDDA
+  userChecksum: A28C1AD76F0E2AEFDAF40B85E2EDEF4A
 - generatedChecksum: 774011E09B9B257B4F572704E6AB9713
   logicalPath: FreeRTOS\Source\portable\MPLAB\PIC32MZ
   name: ISR_Support.h

@@ -28,9 +28,10 @@
           <itemPath>../src/config/curiosity/device.h</itemPath>
           <itemPath>../src/config/curiosity/toolchain_specifics.h</itemPath>
           <itemPath>../src/config/curiosity/definitions.h</itemPath>
-          <itemPath>../src/config/curiosity/FreeRTOSConfig.h</itemPath>
           <itemPath>../src/config/curiosity/user.h</itemPath>
           <itemPath>../src/config/curiosity/configuration.h</itemPath>
+          <itemPath>../src/shared_resources.h</itemPath>
+          <itemPath>../src/config/curiosity/FreeRTOSConfig.h</itemPath>
         </logicalFolder>
       </logicalFolder>
       <logicalFolder name="f2" displayName="FreeRTOS" projectFiles="true">
@@ -108,6 +109,7 @@
           <itemPath>../src/config/curiosity/interrupts_a.S</itemPath>
           <itemPath>../src/config/curiosity/freertos_hooks.c</itemPath>
           <itemPath>../src/config/curiosity/tasks.c</itemPath>
+          <itemPath>../src/shared_resources.c</itemPath>
         </logicalFolder>
       </logicalFolder>
       <logicalFolder name="f2" displayName="FreeRTOS" projectFiles="true">
@@ -136,7 +138,6 @@
       <itemPath>../src/app.c</itemPath>
       <itemPath>../src/app1.c</itemPath>
       <itemPath>../src/app2.c</itemPath>
-      <itemPath>../src/shared_resources.c</itemPath>
       <itemPath>../src/app3.c</itemPath>
     </logicalFolder>
     <logicalFolder name="ExternalFiles"
@@ -169,7 +170,6 @@
       <itemPath>Makefile</itemPath>
       <itemPath>../src/config/curiosity/harmony-manifest-success.yml</itemPath>
     </logicalFolder>
-    <itemPath>../src/shared_resources.h</itemPath>
   </logicalFolder>
   <sourceRootList>
     <Elem>../src</Elem>

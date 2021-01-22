@@ -57,17 +57,17 @@ OBJECTDIR=build/${CND_CONF}/${IMAGE_TYPE}
 DISTDIR=dist/${CND_CONF}/${IMAGE_TYPE}
 
 # Source Files Quoted if spaced
-SOURCEFILES_QUOTED_IF_SPACED=../src/config/curiosity/peripheral/clk/plib_clk.c ../src/config/curiosity/peripheral/evic/plib_evic.c ../src/config/curiosity/peripheral/gpio/plib_gpio.c ../src/config/curiosity/peripheral/tmr/plib_tmr2.c ../src/config/curiosity/peripheral/uart/plib_uart6.c ../src/config/curiosity/stdio/xc32_monitor.c ../src/config/curiosity/initialization.c ../src/config/curiosity/interrupts.c ../src/config/curiosity/exceptions.c ../src/config/curiosity/interrupts_a.S ../src/config/curiosity/freertos_hooks.c ../src/config/curiosity/tasks.c ../src/third_party/rtos/FreeRTOS/Source/portable/MemMang/heap_1.c ../src/third_party/rtos/FreeRTOS/Source/portable/MPLAB/PIC32MZ/port.c ../src/third_party/rtos/FreeRTOS/Source/portable/MPLAB/PIC32MZ/port_asm.S ../src/third_party/rtos/FreeRTOS/Source/croutine.c ../src/third_party/rtos/FreeRTOS/Source/list.c ../src/third_party/rtos/FreeRTOS/Source/queue.c ../src/third_party/rtos/FreeRTOS/Source/FreeRTOS_tasks.c ../src/third_party/rtos/FreeRTOS/Source/timers.c ../src/third_party/rtos/FreeRTOS/Source/event_groups.c ../src/third_party/rtos/FreeRTOS/Source/stream_buffer.c ../src/main.c ../src/app.c ../src/app1.c ../src/app2.c ../src/shared_resources.c ../src/app3.c
+SOURCEFILES_QUOTED_IF_SPACED=../src/config/curiosity/peripheral/clk/plib_clk.c ../src/config/curiosity/peripheral/evic/plib_evic.c ../src/config/curiosity/peripheral/gpio/plib_gpio.c ../src/config/curiosity/peripheral/tmr/plib_tmr2.c ../src/config/curiosity/peripheral/uart/plib_uart6.c ../src/config/curiosity/stdio/xc32_monitor.c ../src/config/curiosity/initialization.c ../src/config/curiosity/interrupts.c ../src/config/curiosity/exceptions.c ../src/config/curiosity/interrupts_a.S ../src/config/curiosity/freertos_hooks.c ../src/config/curiosity/tasks.c ../src/shared_resources.c ../src/third_party/rtos/FreeRTOS/Source/portable/MemMang/heap_1.c ../src/third_party/rtos/FreeRTOS/Source/portable/MPLAB/PIC32MZ/port.c ../src/third_party/rtos/FreeRTOS/Source/portable/MPLAB/PIC32MZ/port_asm.S ../src/third_party/rtos/FreeRTOS/Source/croutine.c ../src/third_party/rtos/FreeRTOS/Source/list.c ../src/third_party/rtos/FreeRTOS/Source/queue.c ../src/third_party/rtos/FreeRTOS/Source/FreeRTOS_tasks.c ../src/third_party/rtos/FreeRTOS/Source/timers.c ../src/third_party/rtos/FreeRTOS/Source/event_groups.c ../src/third_party/rtos/FreeRTOS/Source/stream_buffer.c ../src/main.c ../src/app.c ../src/app1.c ../src/app2.c ../src/app3.c
 
 # Object Files Quoted if spaced
-OBJECTFILES_QUOTED_IF_SPACED=${OBJECTDIR}/_ext/1430439760/plib_clk.o ${OBJECTDIR}/_ext/1394028829/plib_evic.o ${OBJECTDIR}/_ext/1394082657/plib_gpio.o ${OBJECTDIR}/_ext/1430456135/plib_tmr2.o ${OBJECTDIR}/_ext/1394485600/plib_uart6.o ${OBJECTDIR}/_ext/1330622504/xc32_monitor.o ${OBJECTDIR}/_ext/1862105362/initialization.o ${OBJECTDIR}/_ext/1862105362/interrupts.o ${OBJECTDIR}/_ext/1862105362/exceptions.o ${OBJECTDIR}/_ext/1862105362/interrupts_a.o ${OBJECTDIR}/_ext/1862105362/freertos_hooks.o ${OBJECTDIR}/_ext/1862105362/tasks.o ${OBJECTDIR}/_ext/1665200909/heap_1.o ${OBJECTDIR}/_ext/951553246/port.o ${OBJECTDIR}/_ext/951553246/port_asm.o ${OBJECTDIR}/_ext/404212886/croutine.o ${OBJECTDIR}/_ext/404212886/list.o ${OBJECTDIR}/_ext/404212886/queue.o ${OBJECTDIR}/_ext/404212886/FreeRTOS_tasks.o ${OBJECTDIR}/_ext/404212886/timers.o ${OBJECTDIR}/_ext/404212886/event_groups.o ${OBJECTDIR}/_ext/404212886/stream_buffer.o ${OBJECTDIR}/_ext/1360937237/main.o ${OBJECTDIR}/_ext/1360937237/app.o ${OBJECTDIR}/_ext/1360937237/app1.o ${OBJECTDIR}/_ext/1360937237/app2.o ${OBJECTDIR}/_ext/1360937237/shared_resources.o ${OBJECTDIR}/_ext/1360937237/app3.o
-POSSIBLE_DEPFILES=${OBJECTDIR}/_ext/1430439760/plib_clk.o.d ${OBJECTDIR}/_ext/1394028829/plib_evic.o.d ${OBJECTDIR}/_ext/1394082657/plib_gpio.o.d ${OBJECTDIR}/_ext/1430456135/plib_tmr2.o.d ${OBJECTDIR}/_ext/1394485600/plib_uart6.o.d ${OBJECTDIR}/_ext/1330622504/xc32_monitor.o.d ${OBJECTDIR}/_ext/1862105362/initialization.o.d ${OBJECTDIR}/_ext/1862105362/interrupts.o.d ${OBJECTDIR}/_ext/1862105362/exceptions.o.d ${OBJECTDIR}/_ext/1862105362/interrupts_a.o.d ${OBJECTDIR}/_ext/1862105362/freertos_hooks.o.d ${OBJECTDIR}/_ext/1862105362/tasks.o.d ${OBJECTDIR}/_ext/1665200909/heap_1.o.d ${OBJECTDIR}/_ext/951553246/port.o.d ${OBJECTDIR}/_ext/951553246/port_asm.o.d ${OBJECTDIR}/_ext/404212886/croutine.o.d ${OBJECTDIR}/_ext/404212886/list.o.d ${OBJECTDIR}/_ext/404212886/queue.o.d ${OBJECTDIR}/_ext/404212886/FreeRTOS_tasks.o.d ${OBJECTDIR}/_ext/404212886/timers.o.d ${OBJECTDIR}/_ext/404212886/event_groups.o.d ${OBJECTDIR}/_ext/404212886/stream_buffer.o.d ${OBJECTDIR}/_ext/1360937237/main.o.d ${OBJECTDIR}/_ext/1360937237/app.o.d ${OBJECTDIR}/_ext/1360937237/app1.o.d ${OBJECTDIR}/_ext/1360937237/app2.o.d ${OBJECTDIR}/_ext/1360937237/shared_resources.o.d ${OBJECTDIR}/_ext/1360937237/app3.o.d
+OBJECTFILES_QUOTED_IF_SPACED=${OBJECTDIR}/_ext/1430439760/plib_clk.o ${OBJECTDIR}/_ext/1394028829/plib_evic.o ${OBJECTDIR}/_ext/1394082657/plib_gpio.o ${OBJECTDIR}/_ext/1430456135/plib_tmr2.o ${OBJECTDIR}/_ext/1394485600/plib_uart6.o ${OBJECTDIR}/_ext/1330622504/xc32_monitor.o ${OBJECTDIR}/_ext/1862105362/initialization.o ${OBJECTDIR}/_ext/1862105362/interrupts.o ${OBJECTDIR}/_ext/1862105362/exceptions.o ${OBJECTDIR}/_ext/1862105362/interrupts_a.o ${OBJECTDIR}/_ext/1862105362/freertos_hooks.o ${OBJECTDIR}/_ext/1862105362/tasks.o ${OBJECTDIR}/_ext/1360937237/shared_resources.o ${OBJECTDIR}/_ext/1665200909/heap_1.o ${OBJECTDIR}/_ext/951553246/port.o ${OBJECTDIR}/_ext/951553246/port_asm.o ${OBJECTDIR}/_ext/404212886/croutine.o ${OBJECTDIR}/_ext/404212886/list.o ${OBJECTDIR}/_ext/404212886/queue.o ${OBJECTDIR}/_ext/404212886/FreeRTOS_tasks.o ${OBJECTDIR}/_ext/404212886/timers.o ${OBJECTDIR}/_ext/404212886/event_groups.o ${OBJECTDIR}/_ext/404212886/stream_buffer.o ${OBJECTDIR}/_ext/1360937237/main.o ${OBJECTDIR}/_ext/1360937237/app.o ${OBJECTDIR}/_ext/1360937237/app1.o ${OBJECTDIR}/_ext/1360937237/app2.o ${OBJECTDIR}/_ext/1360937237/app3.o
+POSSIBLE_DEPFILES=${OBJECTDIR}/_ext/1430439760/plib_clk.o.d ${OBJECTDIR}/_ext/1394028829/plib_evic.o.d ${OBJECTDIR}/_ext/1394082657/plib_gpio.o.d ${OBJECTDIR}/_ext/1430456135/plib_tmr2.o.d ${OBJECTDIR}/_ext/1394485600/plib_uart6.o.d ${OBJECTDIR}/_ext/1330622504/xc32_monitor.o.d ${OBJECTDIR}/_ext/1862105362/initialization.o.d ${OBJECTDIR}/_ext/1862105362/interrupts.o.d ${OBJECTDIR}/_ext/1862105362/exceptions.o.d ${OBJECTDIR}/_ext/1862105362/interrupts_a.o.d ${OBJECTDIR}/_ext/1862105362/freertos_hooks.o.d ${OBJECTDIR}/_ext/1862105362/tasks.o.d ${OBJECTDIR}/_ext/1360937237/shared_resources.o.d ${OBJECTDIR}/_ext/1665200909/heap_1.o.d ${OBJECTDIR}/_ext/951553246/port.o.d ${OBJECTDIR}/_ext/951553246/port_asm.o.d ${OBJECTDIR}/_ext/404212886/croutine.o.d ${OBJECTDIR}/_ext/404212886/list.o.d ${OBJECTDIR}/_ext/404212886/queue.o.d ${OBJECTDIR}/_ext/404212886/FreeRTOS_tasks.o.d ${OBJECTDIR}/_ext/404212886/timers.o.d ${OBJECTDIR}/_ext/404212886/event_groups.o.d ${OBJECTDIR}/_ext/404212886/stream_buffer.o.d ${OBJECTDIR}/_ext/1360937237/main.o.d ${OBJECTDIR}/_ext/1360937237/app.o.d ${OBJECTDIR}/_ext/1360937237/app1.o.d ${OBJECTDIR}/_ext/1360937237/app2.o.d ${OBJECTDIR}/_ext/1360937237/app3.o.d
 
 # Object Files
-OBJECTFILES=${OBJECTDIR}/_ext/1430439760/plib_clk.o ${OBJECTDIR}/_ext/1394028829/plib_evic.o ${OBJECTDIR}/_ext/1394082657/plib_gpio.o ${OBJECTDIR}/_ext/1430456135/plib_tmr2.o ${OBJECTDIR}/_ext/1394485600/plib_uart6.o ${OBJECTDIR}/_ext/1330622504/xc32_monitor.o ${OBJECTDIR}/_ext/1862105362/initialization.o ${OBJECTDIR}/_ext/1862105362/interrupts.o ${OBJECTDIR}/_ext/1862105362/exceptions.o ${OBJECTDIR}/_ext/1862105362/interrupts_a.o ${OBJECTDIR}/_ext/1862105362/freertos_hooks.o ${OBJECTDIR}/_ext/1862105362/tasks.o ${OBJECTDIR}/_ext/1665200909/heap_1.o ${OBJECTDIR}/_ext/951553246/port.o ${OBJECTDIR}/_ext/951553246/port_asm.o ${OBJECTDIR}/_ext/404212886/croutine.o ${OBJECTDIR}/_ext/404212886/list.o ${OBJECTDIR}/_ext/404212886/queue.o ${OBJECTDIR}/_ext/404212886/FreeRTOS_tasks.o ${OBJECTDIR}/_ext/404212886/timers.o ${OBJECTDIR}/_ext/404212886/event_groups.o ${OBJECTDIR}/_ext/404212886/stream_buffer.o ${OBJECTDIR}/_ext/1360937237/main.o ${OBJECTDIR}/_ext/1360937237/app.o ${OBJECTDIR}/_ext/1360937237/app1.o ${OBJECTDIR}/_ext/1360937237/app2.o ${OBJECTDIR}/_ext/1360937237/shared_resources.o ${OBJECTDIR}/_ext/1360937237/app3.o
+OBJECTFILES=${OBJECTDIR}/_ext/1430439760/plib_clk.o ${OBJECTDIR}/_ext/1394028829/plib_evic.o ${OBJECTDIR}/_ext/1394082657/plib_gpio.o ${OBJECTDIR}/_ext/1430456135/plib_tmr2.o ${OBJECTDIR}/_ext/1394485600/plib_uart6.o ${OBJECTDIR}/_ext/1330622504/xc32_monitor.o ${OBJECTDIR}/_ext/1862105362/initialization.o ${OBJECTDIR}/_ext/1862105362/interrupts.o ${OBJECTDIR}/_ext/1862105362/exceptions.o ${OBJECTDIR}/_ext/1862105362/interrupts_a.o ${OBJECTDIR}/_ext/1862105362/freertos_hooks.o ${OBJECTDIR}/_ext/1862105362/tasks.o ${OBJECTDIR}/_ext/1360937237/shared_resources.o ${OBJECTDIR}/_ext/1665200909/heap_1.o ${OBJECTDIR}/_ext/951553246/port.o ${OBJECTDIR}/_ext/951553246/port_asm.o ${OBJECTDIR}/_ext/404212886/croutine.o ${OBJECTDIR}/_ext/404212886/list.o ${OBJECTDIR}/_ext/404212886/queue.o ${OBJECTDIR}/_ext/404212886/FreeRTOS_tasks.o ${OBJECTDIR}/_ext/404212886/timers.o ${OBJECTDIR}/_ext/404212886/event_groups.o ${OBJECTDIR}/_ext/404212886/stream_buffer.o ${OBJECTDIR}/_ext/1360937237/main.o ${OBJECTDIR}/_ext/1360937237/app.o ${OBJECTDIR}/_ext/1360937237/app1.o ${OBJECTDIR}/_ext/1360937237/app2.o ${OBJECTDIR}/_ext/1360937237/app3.o
 
 # Source Files
-SOURCEFILES=../src/config/curiosity/peripheral/clk/plib_clk.c ../src/config/curiosity/peripheral/evic/plib_evic.c ../src/config/curiosity/peripheral/gpio/plib_gpio.c ../src/config/curiosity/peripheral/tmr/plib_tmr2.c ../src/config/curiosity/peripheral/uart/plib_uart6.c ../src/config/curiosity/stdio/xc32_monitor.c ../src/config/curiosity/initialization.c ../src/config/curiosity/interrupts.c ../src/config/curiosity/exceptions.c ../src/config/curiosity/interrupts_a.S ../src/config/curiosity/freertos_hooks.c ../src/config/curiosity/tasks.c ../src/third_party/rtos/FreeRTOS/Source/portable/MemMang/heap_1.c ../src/third_party/rtos/FreeRTOS/Source/portable/MPLAB/PIC32MZ/port.c ../src/third_party/rtos/FreeRTOS/Source/portable/MPLAB/PIC32MZ/port_asm.S ../src/third_party/rtos/FreeRTOS/Source/croutine.c ../src/third_party/rtos/FreeRTOS/Source/list.c ../src/third_party/rtos/FreeRTOS/Source/queue.c ../src/third_party/rtos/FreeRTOS/Source/FreeRTOS_tasks.c ../src/third_party/rtos/FreeRTOS/Source/timers.c ../src/third_party/rtos/FreeRTOS/Source/event_groups.c ../src/third_party/rtos/FreeRTOS/Source/stream_buffer.c ../src/main.c ../src/app.c ../src/app1.c ../src/app2.c ../src/shared_resources.c ../src/app3.c
+SOURCEFILES=../src/config/curiosity/peripheral/clk/plib_clk.c ../src/config/curiosity/peripheral/evic/plib_evic.c ../src/config/curiosity/peripheral/gpio/plib_gpio.c ../src/config/curiosity/peripheral/tmr/plib_tmr2.c ../src/config/curiosity/peripheral/uart/plib_uart6.c ../src/config/curiosity/stdio/xc32_monitor.c ../src/config/curiosity/initialization.c ../src/config/curiosity/interrupts.c ../src/config/curiosity/exceptions.c ../src/config/curiosity/interrupts_a.S ../src/config/curiosity/freertos_hooks.c ../src/config/curiosity/tasks.c ../src/shared_resources.c ../src/third_party/rtos/FreeRTOS/Source/portable/MemMang/heap_1.c ../src/third_party/rtos/FreeRTOS/Source/portable/MPLAB/PIC32MZ/port.c ../src/third_party/rtos/FreeRTOS/Source/portable/MPLAB/PIC32MZ/port_asm.S ../src/third_party/rtos/FreeRTOS/Source/croutine.c ../src/third_party/rtos/FreeRTOS/Source/list.c ../src/third_party/rtos/FreeRTOS/Source/queue.c ../src/third_party/rtos/FreeRTOS/Source/FreeRTOS_tasks.c ../src/third_party/rtos/FreeRTOS/Source/timers.c ../src/third_party/rtos/FreeRTOS/Source/event_groups.c ../src/third_party/rtos/FreeRTOS/Source/stream_buffer.c ../src/main.c ../src/app.c ../src/app1.c ../src/app2.c ../src/app3.c
 
 
 
@@ -101,7 +101,7 @@ endif
 # ------------------------------------------------------------------------------------
 # Rules for buildStep: assembleWithPreprocess
 ifeq ($(TYPE_IMAGE), DEBUG_RUN)
-${OBJECTDIR}/_ext/1862105362/interrupts_a.o: ../src/config/curiosity/interrupts_a.S  .generated_files/8a1166421ae695d33b0695f9caaa348995d20e9.flag .generated_files/3eda10ae19fa762b9b018eebb81f511d750eb34.flag
+${OBJECTDIR}/_ext/1862105362/interrupts_a.o: ../src/config/curiosity/interrupts_a.S  .generated_files/37848435bf497294b2260029c8f84547ae474b95.flag .generated_files/3eda10ae19fa762b9b018eebb81f511d750eb34.flag
 	@${MKDIR} "${OBJECTDIR}/_ext/1862105362" 
 	@${RM} ${OBJECTDIR}/_ext/1862105362/interrupts_a.o.d 
 	@${RM} ${OBJECTDIR}/_ext/1862105362/interrupts_a.o 
@@ -109,7 +109,7 @@ ${OBJECTDIR}/_ext/1862105362/interrupts_a.o: ../src/config/curiosity/interrupts_
 	${MP_CC} $(MP_EXTRA_AS_PRE)  -D__DEBUG  -c -mprocessor=$(MP_PROCESSOR_OPTION) -I"../src/third_party/rtos/FreeRTOS/Source/portable/MPLAB/PIC32MZ" -I"../src/third_party/rtos/FreeRTOS/Source/include" -I"../src/config/curiosity" -MMD -MF "${OBJECTDIR}/_ext/1862105362/interrupts_a.o.d"  -o ${OBJECTDIR}/_ext/1862105362/interrupts_a.o ../src/config/curiosity/interrupts_a.S  -DXPRJ_curiosity=$(CND_CONF)  -no-legacy-libc  -Wa,--defsym=__MPLAB_BUILD=1$(MP_EXTRA_AS_POST),-MD="${OBJECTDIR}/_ext/1862105362/interrupts_a.o.asm.d",--defsym=__ICD2RAM=1,--defsym=__MPLAB_DEBUG=1,--gdwarf-2,--defsym=__DEBUG=1,-I"../src/third_party/rtos/FreeRTOS/Source/portable/MPLAB/PIC32MZ" -I"../src/third_party/rtos/FreeRTOS/Source/include" -I"../src/config/curiosity" -mdfp="${DFP_DIR}"
 	@${FIXDEPS} "${OBJECTDIR}/_ext/1862105362/interrupts_a.o.d" "${OBJECTDIR}/_ext/1862105362/interrupts_a.o.asm.d" -t $(SILENT) -rsi ${MP_CC_DIR}../ 
 	
-${OBJECTDIR}/_ext/951553246/port_asm.o: ../src/third_party/rtos/FreeRTOS/Source/portable/MPLAB/PIC32MZ/port_asm.S  .generated_files/babd1d45380bde38de555de2ae2371759805fce.flag .generated_files/3eda10ae19fa762b9b018eebb81f511d750eb34.flag
+${OBJECTDIR}/_ext/951553246/port_asm.o: ../src/third_party/rtos/FreeRTOS/Source/portable/MPLAB/PIC32MZ/port_asm.S  .generated_files/8709aad5e54535679ab25cfe248302336b0feda4.flag .generated_files/3eda10ae19fa762b9b018eebb81f511d750eb34.flag
 	@${MKDIR} "${OBJECTDIR}/_ext/951553246" 
 	@${RM} ${OBJECTDIR}/_ext/951553246/port_asm.o.d 
 	@${RM} ${OBJECTDIR}/_ext/951553246/port_asm.o 
@@ -118,7 +118,7 @@ ${OBJECTDIR}/_ext/951553246/port_asm.o: ../src/third_party/rtos/FreeRTOS/Source/
 	@${FIXDEPS} "${OBJECTDIR}/_ext/951553246/port_asm.o.d" "${OBJECTDIR}/_ext/951553246/port_asm.o.asm.d" -t $(SILENT) -rsi ${MP_CC_DIR}../ 
 	
 else
-${OBJECTDIR}/_ext/1862105362/interrupts_a.o: ../src/config/curiosity/interrupts_a.S  .generated_files/60da877ec162ffe0b3956477be868dc7dc1917e6.flag .generated_files/3eda10ae19fa762b9b018eebb81f511d750eb34.flag
+${OBJECTDIR}/_ext/1862105362/interrupts_a.o: ../src/config/curiosity/interrupts_a.S  .generated_files/8abbfcd19b003b0ce7f46b7329726475f004f7ae.flag .generated_files/3eda10ae19fa762b9b018eebb81f511d750eb34.flag
 	@${MKDIR} "${OBJECTDIR}/_ext/1862105362" 
 	@${RM} ${OBJECTDIR}/_ext/1862105362/interrupts_a.o.d 
 	@${RM} ${OBJECTDIR}/_ext/1862105362/interrupts_a.o 
@@ -126,7 +126,7 @@ ${OBJECTDIR}/_ext/1862105362/interrupts_a.o: ../src/config/curiosity/interrupts_
 	${MP_CC} $(MP_EXTRA_AS_PRE)  -c -mprocessor=$(MP_PROCESSOR_OPTION) -I"../src/third_party/rtos/FreeRTOS/Source/portable/MPLAB/PIC32MZ" -I"../src/third_party/rtos/FreeRTOS/Source/include" -I"../src/config/curiosity" -MMD -MF "${OBJECTDIR}/_ext/1862105362/interrupts_a.o.d"  -o ${OBJECTDIR}/_ext/1862105362/interrupts_a.o ../src/config/curiosity/interrupts_a.S  -DXPRJ_curiosity=$(CND_CONF)  -no-legacy-libc  -Wa,--defsym=__MPLAB_BUILD=1$(MP_EXTRA_AS_POST),-MD="${OBJECTDIR}/_ext/1862105362/interrupts_a.o.asm.d",--gdwarf-2,-I"../src/third_party/rtos/FreeRTOS/Source/portable/MPLAB/PIC32MZ" -I"../src/third_party/rtos/FreeRTOS/Source/include" -I"../src/config/curiosity" -mdfp="${DFP_DIR}"
 	@${FIXDEPS} "${OBJECTDIR}/_ext/1862105362/interrupts_a.o.d" "${OBJECTDIR}/_ext/1862105362/interrupts_a.o.asm.d" -t $(SILENT) -rsi ${MP_CC_DIR}../ 
 	
-${OBJECTDIR}/_ext/951553246/port_asm.o: ../src/third_party/rtos/FreeRTOS/Source/portable/MPLAB/PIC32MZ/port_asm.S  .generated_files/b63c8968f2f6278191673ab62c8db6138bdd6b08.flag .generated_files/3eda10ae19fa762b9b018eebb81f511d750eb34.flag
+${OBJECTDIR}/_ext/951553246/port_asm.o: ../src/third_party/rtos/FreeRTOS/Source/portable/MPLAB/PIC32MZ/port_asm.S  .generated_files/fe896a61ab60076ddb4f1079214e638715fc8435.flag .generated_files/3eda10ae19fa762b9b018eebb81f511d750eb34.flag
 	@${MKDIR} "${OBJECTDIR}/_ext/951553246" 
 	@${RM} ${OBJECTDIR}/_ext/951553246/port_asm.o.d 
 	@${RM} ${OBJECTDIR}/_ext/951553246/port_asm.o 
@@ -139,314 +139,314 @@ endif
 # ------------------------------------------------------------------------------------
 # Rules for buildStep: compile
 ifeq ($(TYPE_IMAGE), DEBUG_RUN)
-${OBJECTDIR}/_ext/1430439760/plib_clk.o: ../src/config/curiosity/peripheral/clk/plib_clk.c  .generated_files/c9007ab030ab98942654ed79f45543d599defa85.flag .generated_files/3eda10ae19fa762b9b018eebb81f511d750eb34.flag
+${OBJECTDIR}/_ext/1430439760/plib_clk.o: ../src/config/curiosity/peripheral/clk/plib_clk.c  .generated_files/6bdf7c83e45f8fba3bfde45ad562d1f0481bc21.flag .generated_files/3eda10ae19fa762b9b018eebb81f511d750eb34.flag
 	@${MKDIR} "${OBJECTDIR}/_ext/1430439760" 
 	@${RM} ${OBJECTDIR}/_ext/1430439760/plib_clk.o.d 
 	@${RM} ${OBJECTDIR}/_ext/1430439760/plib_clk.o 
 	${MP_CC}  $(MP_EXTRA_CC_PRE) -g -D__DEBUG   -fframe-base-loclist  -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -ffunction-sections -O1 -I"../src/third_party/rtos/FreeRTOS/Source/portable/MPLAB/PIC32MZ" -I"../src/third_party/rtos/FreeRTOS/Source/include" -I"../src" -I"../src/config/curiosity" -I"../src/packs/PIC32MZ2048EFM144_DFP" -Werror -Wall -MP -MMD -MF "${OBJECTDIR}/_ext/1430439760/plib_clk.o.d" -o ${OBJECTDIR}/_ext/1430439760/plib_clk.o ../src/config/curiosity/peripheral/clk/plib_clk.c    -DXPRJ_curiosity=$(CND_CONF)  -no-legacy-libc  $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
 	
-${OBJECTDIR}/_ext/1394028829/plib_evic.o: ../src/config/curiosity/peripheral/evic/plib_evic.c  .generated_files/f89a5b90c03c262f9b7c07e5259df6d211962961.flag .generated_files/3eda10ae19fa762b9b018eebb81f511d750eb34.flag
+${OBJECTDIR}/_ext/1394028829/plib_evic.o: ../src/config/curiosity/peripheral/evic/plib_evic.c  .generated_files/2c5cad52a48454855eda0c710116576cdf9300eb.flag .generated_files/3eda10ae19fa762b9b018eebb81f511d750eb34.flag
 	@${MKDIR} "${OBJECTDIR}/_ext/1394028829" 
 	@${RM} ${OBJECTDIR}/_ext/1394028829/plib_evic.o.d 
 	@${RM} ${OBJECTDIR}/_ext/1394028829/plib_evic.o 
 	${MP_CC}  $(MP_EXTRA_CC_PRE) -g -D__DEBUG   -fframe-base-loclist  -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -ffunction-sections -O1 -I"../src/third_party/rtos/FreeRTOS/Source/portable/MPLAB/PIC32MZ" -I"../src/third_party/rtos/FreeRTOS/Source/include" -I"../src" -I"../src/config/curiosity" -I"../src/packs/PIC32MZ2048EFM144_DFP" -Werror -Wall -MP -MMD -MF "${OBJECTDIR}/_ext/1394028829/plib_evic.o.d" -o ${OBJECTDIR}/_ext/1394028829/plib_evic.o ../src/config/curiosity/peripheral/evic/plib_evic.c    -DXPRJ_curiosity=$(CND_CONF)  -no-legacy-libc  $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
 	
-${OBJECTDIR}/_ext/1394082657/plib_gpio.o: ../src/config/curiosity/peripheral/gpio/plib_gpio.c  .generated_files/4844e9c0dc8dfc761885d7fdd537e7c7c241126.flag .generated_files/3eda10ae19fa762b9b018eebb81f511d750eb34.flag
+${OBJECTDIR}/_ext/1394082657/plib_gpio.o: ../src/config/curiosity/peripheral/gpio/plib_gpio.c  .generated_files/a9eaab44d439022aa61b04144e97d8b2f77c0901.flag .generated_files/3eda10ae19fa762b9b018eebb81f511d750eb34.flag
 	@${MKDIR} "${OBJECTDIR}/_ext/1394082657" 
 	@${RM} ${OBJECTDIR}/_ext/1394082657/plib_gpio.o.d 
 	@${RM} ${OBJECTDIR}/_ext/1394082657/plib_gpio.o 
 	${MP_CC}  $(MP_EXTRA_CC_PRE) -g -D__DEBUG   -fframe-base-loclist  -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -ffunction-sections -O1 -I"../src/third_party/rtos/FreeRTOS/Source/portable/MPLAB/PIC32MZ" -I"../src/third_party/rtos/FreeRTOS/Source/include" -I"../src" -I"../src/config/curiosity" -I"../src/packs/PIC32MZ2048EFM144_DFP" -Werror -Wall -MP -MMD -MF "${OBJECTDIR}/_ext/1394082657/plib_gpio.o.d" -o ${OBJECTDIR}/_ext/1394082657/plib_gpio.o ../src/config/curiosity/peripheral/gpio/plib_gpio.c    -DXPRJ_curiosity=$(CND_CONF)  -no-legacy-libc  $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
 	
-${OBJECTDIR}/_ext/1430456135/plib_tmr2.o: ../src/config/curiosity/peripheral/tmr/plib_tmr2.c  .generated_files/407a6ceffe5c6e2d9e7d0cbfe2cccf408aff8baa.flag .generated_files/3eda10ae19fa762b9b018eebb81f511d750eb34.flag
+${OBJECTDIR}/_ext/1430456135/plib_tmr2.o: ../src/config/curiosity/peripheral/tmr/plib_tmr2.c  .generated_files/8a179e86104e951a5de30980afc9a59f1c8a156a.flag .generated_files/3eda10ae19fa762b9b018eebb81f511d750eb34.flag
 	@${MKDIR} "${OBJECTDIR}/_ext/1430456135" 
 	@${RM} ${OBJECTDIR}/_ext/1430456135/plib_tmr2.o.d 
 	@${RM} ${OBJECTDIR}/_ext/1430456135/plib_tmr2.o 
 	${MP_CC}  $(MP_EXTRA_CC_PRE) -g -D__DEBUG   -fframe-base-loclist  -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -ffunction-sections -O1 -I"../src/third_party/rtos/FreeRTOS/Source/portable/MPLAB/PIC32MZ" -I"../src/third_party/rtos/FreeRTOS/Source/include" -I"../src" -I"../src/config/curiosity" -I"../src/packs/PIC32MZ2048EFM144_DFP" -Werror -Wall -MP -MMD -MF "${OBJECTDIR}/_ext/1430456135/plib_tmr2.o.d" -o ${OBJECTDIR}/_ext/1430456135/plib_tmr2.o ../src/config/curiosity/peripheral/tmr/plib_tmr2.c    -DXPRJ_curiosity=$(CND_CONF)  -no-legacy-libc  $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
 	
-${OBJECTDIR}/_ext/1394485600/plib_uart6.o: ../src/config/curiosity/peripheral/uart/plib_uart6.c  .generated_files/6da251e4ed35bf71986a47b6fdc29fafd786c1d6.flag .generated_files/3eda10ae19fa762b9b018eebb81f511d750eb34.flag
+${OBJECTDIR}/_ext/1394485600/plib_uart6.o: ../src/config/curiosity/peripheral/uart/plib_uart6.c  .generated_files/2eef2a546ceeb771bca7593164066d1e0a21468d.flag .generated_files/3eda10ae19fa762b9b018eebb81f511d750eb34.flag
 	@${MKDIR} "${OBJECTDIR}/_ext/1394485600" 
 	@${RM} ${OBJECTDIR}/_ext/1394485600/plib_uart6.o.d 
 	@${RM} ${OBJECTDIR}/_ext/1394485600/plib_uart6.o 
 	${MP_CC}  $(MP_EXTRA_CC_PRE) -g -D__DEBUG   -fframe-base-loclist  -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -ffunction-sections -O1 -I"../src/third_party/rtos/FreeRTOS/Source/portable/MPLAB/PIC32MZ" -I"../src/third_party/rtos/FreeRTOS/Source/include" -I"../src" -I"../src/config/curiosity" -I"../src/packs/PIC32MZ2048EFM144_DFP" -Werror -Wall -MP -MMD -MF "${OBJECTDIR}/_ext/1394485600/plib_uart6.o.d" -o ${OBJECTDIR}/_ext/1394485600/plib_uart6.o ../src/config/curiosity/peripheral/uart/plib_uart6.c    -DXPRJ_curiosity=$(CND_CONF)  -no-legacy-libc  $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
 	
-${OBJECTDIR}/_ext/1330622504/xc32_monitor.o: ../src/config/curiosity/stdio/xc32_monitor.c  .generated_files/74e29dc37faa8390944b6f3f0605fea2ecef94f.flag .generated_files/3eda10ae19fa762b9b018eebb81f511d750eb34.flag
+${OBJECTDIR}/_ext/1330622504/xc32_monitor.o: ../src/config/curiosity/stdio/xc32_monitor.c  .generated_files/bfe29bf56b975671fdade756f25ddbb4ff272921.flag .generated_files/3eda10ae19fa762b9b018eebb81f511d750eb34.flag
 	@${MKDIR} "${OBJECTDIR}/_ext/1330622504" 
 	@${RM} ${OBJECTDIR}/_ext/1330622504/xc32_monitor.o.d 
 	@${RM} ${OBJECTDIR}/_ext/1330622504/xc32_monitor.o 
 	${MP_CC}  $(MP_EXTRA_CC_PRE) -g -D__DEBUG   -fframe-base-loclist  -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -ffunction-sections -O1 -I"../src/third_party/rtos/FreeRTOS/Source/portable/MPLAB/PIC32MZ" -I"../src/third_party/rtos/FreeRTOS/Source/include" -I"../src" -I"../src/config/curiosity" -I"../src/packs/PIC32MZ2048EFM144_DFP" -Werror -Wall -MP -MMD -MF "${OBJECTDIR}/_ext/1330622504/xc32_monitor.o.d" -o ${OBJECTDIR}/_ext/1330622504/xc32_monitor.o ../src/config/curiosity/stdio/xc32_monitor.c    -DXPRJ_curiosity=$(CND_CONF)  -no-legacy-libc  $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
 	
-${OBJECTDIR}/_ext/1862105362/initialization.o: ../src/config/curiosity/initialization.c  .generated_files/4f6203778a26443e30af539820220a98803eac79.flag .generated_files/3eda10ae19fa762b9b018eebb81f511d750eb34.flag
+${OBJECTDIR}/_ext/1862105362/initialization.o: ../src/config/curiosity/initialization.c  .generated_files/862cc9acfcf70959bf43817d4579a81a4c6e394d.flag .generated_files/3eda10ae19fa762b9b018eebb81f511d750eb34.flag
 	@${MKDIR} "${OBJECTDIR}/_ext/1862105362" 
 	@${RM} ${OBJECTDIR}/_ext/1862105362/initialization.o.d 
 	@${RM} ${OBJECTDIR}/_ext/1862105362/initialization.o 
 	${MP_CC}  $(MP_EXTRA_CC_PRE) -g -D__DEBUG   -fframe-base-loclist  -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -ffunction-sections -O1 -I"../src/third_party/rtos/FreeRTOS/Source/portable/MPLAB/PIC32MZ" -I"../src/third_party/rtos/FreeRTOS/Source/include" -I"../src" -I"../src/config/curiosity" -I"../src/packs/PIC32MZ2048EFM144_DFP" -Werror -Wall -MP -MMD -MF "${OBJECTDIR}/_ext/1862105362/initialization.o.d" -o ${OBJECTDIR}/_ext/1862105362/initialization.o ../src/config/curiosity/initialization.c    -DXPRJ_curiosity=$(CND_CONF)  -no-legacy-libc  $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
 	
-${OBJECTDIR}/_ext/1862105362/interrupts.o: ../src/config/curiosity/interrupts.c  .generated_files/dee8b670cc986dc09623c52191cf6941f4f05b17.flag .generated_files/3eda10ae19fa762b9b018eebb81f511d750eb34.flag
+${OBJECTDIR}/_ext/1862105362/interrupts.o: ../src/config/curiosity/interrupts.c  .generated_files/bc9bcb51f0c2f25c1bea264c210b6693da6618c.flag .generated_files/3eda10ae19fa762b9b018eebb81f511d750eb34.flag
 	@${MKDIR} "${OBJECTDIR}/_ext/1862105362" 
 	@${RM} ${OBJECTDIR}/_ext/1862105362/interrupts.o.d 
 	@${RM} ${OBJECTDIR}/_ext/1862105362/interrupts.o 
 	${MP_CC}  $(MP_EXTRA_CC_PRE) -g -D__DEBUG   -fframe-base-loclist  -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -ffunction-sections -O1 -I"../src/third_party/rtos/FreeRTOS/Source/portable/MPLAB/PIC32MZ" -I"../src/third_party/rtos/FreeRTOS/Source/include" -I"../src" -I"../src/config/curiosity" -I"../src/packs/PIC32MZ2048EFM144_DFP" -Werror -Wall -MP -MMD -MF "${OBJECTDIR}/_ext/1862105362/interrupts.o.d" -o ${OBJECTDIR}/_ext/1862105362/interrupts.o ../src/config/curiosity/interrupts.c    -DXPRJ_curiosity=$(CND_CONF)  -no-legacy-libc  $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
 	
-${OBJECTDIR}/_ext/1862105362/exceptions.o: ../src/config/curiosity/exceptions.c  .generated_files/7c9bab0d634eeb484132e7abb9c2fddbd019d25d.flag .generated_files/3eda10ae19fa762b9b018eebb81f511d750eb34.flag
+${OBJECTDIR}/_ext/1862105362/exceptions.o: ../src/config/curiosity/exceptions.c  .generated_files/94d41297542a71c3909e7e97559ac006846cbad6.flag .generated_files/3eda10ae19fa762b9b018eebb81f511d750eb34.flag
 	@${MKDIR} "${OBJECTDIR}/_ext/1862105362" 
 	@${RM} ${OBJECTDIR}/_ext/1862105362/exceptions.o.d 
 	@${RM} ${OBJECTDIR}/_ext/1862105362/exceptions.o 
 	${MP_CC}  $(MP_EXTRA_CC_PRE) -g -D__DEBUG   -fframe-base-loclist  -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -ffunction-sections -O1 -I"../src/third_party/rtos/FreeRTOS/Source/portable/MPLAB/PIC32MZ" -I"../src/third_party/rtos/FreeRTOS/Source/include" -I"../src" -I"../src/config/curiosity" -I"../src/packs/PIC32MZ2048EFM144_DFP" -Werror -Wall -MP -MMD -MF "${OBJECTDIR}/_ext/1862105362/exceptions.o.d" -o ${OBJECTDIR}/_ext/1862105362/exceptions.o ../src/config/curiosity/exceptions.c    -DXPRJ_curiosity=$(CND_CONF)  -no-legacy-libc  $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
 	
-${OBJECTDIR}/_ext/1862105362/freertos_hooks.o: ../src/config/curiosity/freertos_hooks.c  .generated_files/12ef72ff368240ad8340a199e558a38bffb72984.flag .generated_files/3eda10ae19fa762b9b018eebb81f511d750eb34.flag
+${OBJECTDIR}/_ext/1862105362/freertos_hooks.o: ../src/config/curiosity/freertos_hooks.c  .generated_files/bd85d7a68beaf9e6764d4e43238aeb48ab8391a6.flag .generated_files/3eda10ae19fa762b9b018eebb81f511d750eb34.flag
 	@${MKDIR} "${OBJECTDIR}/_ext/1862105362" 
 	@${RM} ${OBJECTDIR}/_ext/1862105362/freertos_hooks.o.d 
 	@${RM} ${OBJECTDIR}/_ext/1862105362/freertos_hooks.o 
 	${MP_CC}  $(MP_EXTRA_CC_PRE) -g -D__DEBUG   -fframe-base-loclist  -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -ffunction-sections -O1 -I"../src/third_party/rtos/FreeRTOS/Source/portable/MPLAB/PIC32MZ" -I"../src/third_party/rtos/FreeRTOS/Source/include" -I"../src" -I"../src/config/curiosity" -I"../src/packs/PIC32MZ2048EFM144_DFP" -Werror -Wall -MP -MMD -MF "${OBJECTDIR}/_ext/1862105362/freertos_hooks.o.d" -o ${OBJECTDIR}/_ext/1862105362/freertos_hooks.o ../src/config/curiosity/freertos_hooks.c    -DXPRJ_curiosity=$(CND_CONF)  -no-legacy-libc  $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
 	
-${OBJECTDIR}/_ext/1862105362/tasks.o: ../src/config/curiosity/tasks.c  .generated_files/dd86afe1aa62e12089fb9019353f1b4b3a628978.flag .generated_files/3eda10ae19fa762b9b018eebb81f511d750eb34.flag
+${OBJECTDIR}/_ext/1862105362/tasks.o: ../src/config/curiosity/tasks.c  .generated_files/4d92518285f36288329b6ac578adfe18cef14489.flag .generated_files/3eda10ae19fa762b9b018eebb81f511d750eb34.flag
 	@${MKDIR} "${OBJECTDIR}/_ext/1862105362" 
 	@${RM} ${OBJECTDIR}/_ext/1862105362/tasks.o.d 
 	@${RM} ${OBJECTDIR}/_ext/1862105362/tasks.o 
 	${MP_CC}  $(MP_EXTRA_CC_PRE) -g -D__DEBUG   -fframe-base-loclist  -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -ffunction-sections -O1 -I"../src/third_party/rtos/FreeRTOS/Source/portable/MPLAB/PIC32MZ" -I"../src/third_party/rtos/FreeRTOS/Source/include" -I"../src" -I"../src/config/curiosity" -I"../src/packs/PIC32MZ2048EFM144_DFP" -Werror -Wall -MP -MMD -MF "${OBJECTDIR}/_ext/1862105362/tasks.o.d" -o ${OBJECTDIR}/_ext/1862105362/tasks.o ../src/config/curiosity/tasks.c    -DXPRJ_curiosity=$(CND_CONF)  -no-legacy-libc  $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
 	
-${OBJECTDIR}/_ext/1665200909/heap_1.o: ../src/third_party/rtos/FreeRTOS/Source/portable/MemMang/heap_1.c  .generated_files/6ccf1235d40b3f63805e9791cc2076bd1ca51d9e.flag .generated_files/3eda10ae19fa762b9b018eebb81f511d750eb34.flag
-	@${MKDIR} "${OBJECTDIR}/_ext/1665200909" 
-	@${RM} ${OBJECTDIR}/_ext/1665200909/heap_1.o.d 
-	@${RM} ${OBJECTDIR}/_ext/1665200909/heap_1.o 
-	${MP_CC}  $(MP_EXTRA_CC_PRE) -g -D__DEBUG   -fframe-base-loclist  -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -ffunction-sections -O1 -I"../src/third_party/rtos/FreeRTOS/Source/portable/MPLAB/PIC32MZ" -I"../src/third_party/rtos/FreeRTOS/Source/include" -I"../src" -I"../src/config/curiosity" -I"../src/packs/PIC32MZ2048EFM144_DFP" -Werror -Wall -MP -MMD -MF "${OBJECTDIR}/_ext/1665200909/heap_1.o.d" -o ${OBJECTDIR}/_ext/1665200909/heap_1.o ../src/third_party/rtos/FreeRTOS/Source/portable/MemMang/heap_1.c    -DXPRJ_curiosity=$(CND_CONF)  -no-legacy-libc  $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
-	
-${OBJECTDIR}/_ext/951553246/port.o: ../src/third_party/rtos/FreeRTOS/Source/portable/MPLAB/PIC32MZ/port.c  .generated_files/81eee6f3173b75b6d222bccde2cb570a598f9dfe.flag .generated_files/3eda10ae19fa762b9b018eebb81f511d750eb34.flag
-	@${MKDIR} "${OBJECTDIR}/_ext/951553246" 
-	@${RM} ${OBJECTDIR}/_ext/951553246/port.o.d 
-	@${RM} ${OBJECTDIR}/_ext/951553246/port.o 
-	${MP_CC}  $(MP_EXTRA_CC_PRE) -g -D__DEBUG   -fframe-base-loclist  -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -ffunction-sections -O1 -I"../src/third_party/rtos/FreeRTOS/Source/portable/MPLAB/PIC32MZ" -I"../src/third_party/rtos/FreeRTOS/Source/include" -I"../src" -I"../src/config/curiosity" -I"../src/packs/PIC32MZ2048EFM144_DFP" -Werror -Wall -MP -MMD -MF "${OBJECTDIR}/_ext/951553246/port.o.d" -o ${OBJECTDIR}/_ext/951553246/port.o ../src/third_party/rtos/FreeRTOS/Source/portable/MPLAB/PIC32MZ/port.c    -DXPRJ_curiosity=$(CND_CONF)  -no-legacy-libc  $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
-	
-${OBJECTDIR}/_ext/404212886/croutine.o: ../src/third_party/rtos/FreeRTOS/Source/croutine.c  .generated_files/992ade92f0ff4be07195a069f5577f61b10272e8.flag .generated_files/3eda10ae19fa762b9b018eebb81f511d750eb34.flag
-	@${MKDIR} "${OBJECTDIR}/_ext/404212886" 
-	@${RM} ${OBJECTDIR}/_ext/404212886/croutine.o.d 
-	@${RM} ${OBJECTDIR}/_ext/404212886/croutine.o 
-	${MP_CC}  $(MP_EXTRA_CC_PRE) -g -D__DEBUG   -fframe-base-loclist  -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -ffunction-sections -O1 -I"../src/third_party/rtos/FreeRTOS/Source/portable/MPLAB/PIC32MZ" -I"../src/third_party/rtos/FreeRTOS/Source/include" -I"../src" -I"../src/config/curiosity" -I"../src/packs/PIC32MZ2048EFM144_DFP" -Werror -Wall -MP -MMD -MF "${OBJECTDIR}/_ext/404212886/croutine.o.d" -o ${OBJECTDIR}/_ext/404212886/croutine.o ../src/third_party/rtos/FreeRTOS/Source/croutine.c    -DXPRJ_curiosity=$(CND_CONF)  -no-legacy-libc  $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
-	
-${OBJECTDIR}/_ext/404212886/list.o: ../src/third_party/rtos/FreeRTOS/Source/list.c  .generated_files/d2cdee2da3a56c0c15ba217923f0480ff93a413e.flag .generated_files/3eda10ae19fa762b9b018eebb81f511d750eb34.flag
-	@${MKDIR} "${OBJECTDIR}/_ext/404212886" 
-	@${RM} ${OBJECTDIR}/_ext/404212886/list.o.d 
-	@${RM} ${OBJECTDIR}/_ext/404212886/list.o 
-	${MP_CC}  $(MP_EXTRA_CC_PRE) -g -D__DEBUG   -fframe-base-loclist  -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -ffunction-sections -O1 -I"../src/third_party/rtos/FreeRTOS/Source/portable/MPLAB/PIC32MZ" -I"../src/third_party/rtos/FreeRTOS/Source/include" -I"../src" -I"../src/config/curiosity" -I"../src/packs/PIC32MZ2048EFM144_DFP" -Werror -Wall -MP -MMD -MF "${OBJECTDIR}/_ext/404212886/list.o.d" -o ${OBJECTDIR}/_ext/404212886/list.o ../src/third_party/rtos/FreeRTOS/Source/list.c    -DXPRJ_curiosity=$(CND_CONF)  -no-legacy-libc  $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
-	
-${OBJECTDIR}/_ext/404212886/queue.o: ../src/third_party/rtos/FreeRTOS/Source/queue.c  .generated_files/a133dcc00d037278df897331257f83c393d922ce.flag .generated_files/3eda10ae19fa762b9b018eebb81f511d750eb34.flag
-	@${MKDIR} "${OBJECTDIR}/_ext/404212886" 
-	@${RM} ${OBJECTDIR}/_ext/404212886/queue.o.d 
-	@${RM} ${OBJECTDIR}/_ext/404212886/queue.o 
-	${MP_CC}  $(MP_EXTRA_CC_PRE) -g -D__DEBUG   -fframe-base-loclist  -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -ffunction-sections -O1 -I"../src/third_party/rtos/FreeRTOS/Source/portable/MPLAB/PIC32MZ" -I"../src/third_party/rtos/FreeRTOS/Source/include" -I"../src" -I"../src/config/curiosity" -I"../src/packs/PIC32MZ2048EFM144_DFP" -Werror -Wall -MP -MMD -MF "${OBJECTDIR}/_ext/404212886/queue.o.d" -o ${OBJECTDIR}/_ext/404212886/queue.o ../src/third_party/rtos/FreeRTOS/Source/queue.c    -DXPRJ_curiosity=$(CND_CONF)  -no-legacy-libc  $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
-	
-${OBJECTDIR}/_ext/404212886/FreeRTOS_tasks.o: ../src/third_party/rtos/FreeRTOS/Source/FreeRTOS_tasks.c  .generated_files/ca44f6ace9bd1b642ede33fca140490bf3554662.flag .generated_files/3eda10ae19fa762b9b018eebb81f511d750eb34.flag
-	@${MKDIR} "${OBJECTDIR}/_ext/404212886" 
-	@${RM} ${OBJECTDIR}/_ext/404212886/FreeRTOS_tasks.o.d 
-	@${RM} ${OBJECTDIR}/_ext/404212886/FreeRTOS_tasks.o 
-	${MP_CC}  $(MP_EXTRA_CC_PRE) -g -D__DEBUG   -fframe-base-loclist  -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -ffunction-sections -O1 -I"../src/third_party/rtos/FreeRTOS/Source/portable/MPLAB/PIC32MZ" -I"../src/third_party/rtos/FreeRTOS/Source/include" -I"../src" -I"../src/config/curiosity" -I"../src/packs/PIC32MZ2048EFM144_DFP" -Werror -Wall -MP -MMD -MF "${OBJECTDIR}/_ext/404212886/FreeRTOS_tasks.o.d" -o ${OBJECTDIR}/_ext/404212886/FreeRTOS_tasks.o ../src/third_party/rtos/FreeRTOS/Source/FreeRTOS_tasks.c    -DXPRJ_curiosity=$(CND_CONF)  -no-legacy-libc  $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
-	
-${OBJECTDIR}/_ext/404212886/timers.o: ../src/third_party/rtos/FreeRTOS/Source/timers.c  .generated_files/4f5ee1f93f01337378c8e5a9ee54e7534e8557f7.flag .generated_files/3eda10ae19fa762b9b018eebb81f511d750eb34.flag
-	@${MKDIR} "${OBJECTDIR}/_ext/404212886" 
-	@${RM} ${OBJECTDIR}/_ext/404212886/timers.o.d 
-	@${RM} ${OBJECTDIR}/_ext/404212886/timers.o 
-	${MP_CC}  $(MP_EXTRA_CC_PRE) -g -D__DEBUG   -fframe-base-loclist  -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -ffunction-sections -O1 -I"../src/third_party/rtos/FreeRTOS/Source/portable/MPLAB/PIC32MZ" -I"../src/third_party/rtos/FreeRTOS/Source/include" -I"../src" -I"../src/config/curiosity" -I"../src/packs/PIC32MZ2048EFM144_DFP" -Werror -Wall -MP -MMD -MF "${OBJECTDIR}/_ext/404212886/timers.o.d" -o ${OBJECTDIR}/_ext/404212886/timers.o ../src/third_party/rtos/FreeRTOS/Source/timers.c    -DXPRJ_curiosity=$(CND_CONF)  -no-legacy-libc  $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
-	
-${OBJECTDIR}/_ext/404212886/event_groups.o: ../src/third_party/rtos/FreeRTOS/Source/event_groups.c  .generated_files/d85156dcd489993c2c2a98055957a17f028e6e3f.flag .generated_files/3eda10ae19fa762b9b018eebb81f511d750eb34.flag
-	@${MKDIR} "${OBJECTDIR}/_ext/404212886" 
-	@${RM} ${OBJECTDIR}/_ext/404212886/event_groups.o.d 
-	@${RM} ${OBJECTDIR}/_ext/404212886/event_groups.o 
-	${MP_CC}  $(MP_EXTRA_CC_PRE) -g -D__DEBUG   -fframe-base-loclist  -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -ffunction-sections -O1 -I"../src/third_party/rtos/FreeRTOS/Source/portable/MPLAB/PIC32MZ" -I"../src/third_party/rtos/FreeRTOS/Source/include" -I"../src" -I"../src/config/curiosity" -I"../src/packs/PIC32MZ2048EFM144_DFP" -Werror -Wall -MP -MMD -MF "${OBJECTDIR}/_ext/404212886/event_groups.o.d" -o ${OBJECTDIR}/_ext/404212886/event_groups.o ../src/third_party/rtos/FreeRTOS/Source/event_groups.c    -DXPRJ_curiosity=$(CND_CONF)  -no-legacy-libc  $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
-	
-${OBJECTDIR}/_ext/404212886/stream_buffer.o: ../src/third_party/rtos/FreeRTOS/Source/stream_buffer.c  .generated_files/ffbc1fdd879f760e71ed351450e3d7666c5f9da9.flag .generated_files/3eda10ae19fa762b9b018eebb81f511d750eb34.flag
-	@${MKDIR} "${OBJECTDIR}/_ext/404212886" 
-	@${RM} ${OBJECTDIR}/_ext/404212886/stream_buffer.o.d 
-	@${RM} ${OBJECTDIR}/_ext/404212886/stream_buffer.o 
-	${MP_CC}  $(MP_EXTRA_CC_PRE) -g -D__DEBUG   -fframe-base-loclist  -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -ffunction-sections -O1 -I"../src/third_party/rtos/FreeRTOS/Source/portable/MPLAB/PIC32MZ" -I"../src/third_party/rtos/FreeRTOS/Source/include" -I"../src" -I"../src/config/curiosity" -I"../src/packs/PIC32MZ2048EFM144_DFP" -Werror -Wall -MP -MMD -MF "${OBJECTDIR}/_ext/404212886/stream_buffer.o.d" -o ${OBJECTDIR}/_ext/404212886/stream_buffer.o ../src/third_party/rtos/FreeRTOS/Source/stream_buffer.c    -DXPRJ_curiosity=$(CND_CONF)  -no-legacy-libc  $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
-	
-${OBJECTDIR}/_ext/1360937237/main.o: ../src/main.c  .generated_files/44ec5f604a2f4182b0a0cef4a309cf5a60615e33.flag .generated_files/3eda10ae19fa762b9b018eebb81f511d750eb34.flag
-	@${MKDIR} "${OBJECTDIR}/_ext/1360937237" 
-	@${RM} ${OBJECTDIR}/_ext/1360937237/main.o.d 
-	@${RM} ${OBJECTDIR}/_ext/1360937237/main.o 
-	${MP_CC}  $(MP_EXTRA_CC_PRE) -g -D__DEBUG   -fframe-base-loclist  -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -ffunction-sections -O1 -I"../src/third_party/rtos/FreeRTOS/Source/portable/MPLAB/PIC32MZ" -I"../src/third_party/rtos/FreeRTOS/Source/include" -I"../src" -I"../src/config/curiosity" -I"../src/packs/PIC32MZ2048EFM144_DFP" -Werror -Wall -MP -MMD -MF "${OBJECTDIR}/_ext/1360937237/main.o.d" -o ${OBJECTDIR}/_ext/1360937237/main.o ../src/main.c    -DXPRJ_curiosity=$(CND_CONF)  -no-legacy-libc  $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
-	
-${OBJECTDIR}/_ext/1360937237/app.o: ../src/app.c  .generated_files/92f38350f730b74bef0d1d13b08e345e8e7caf8e.flag .generated_files/3eda10ae19fa762b9b018eebb81f511d750eb34.flag
-	@${MKDIR} "${OBJECTDIR}/_ext/1360937237" 
-	@${RM} ${OBJECTDIR}/_ext/1360937237/app.o.d 
-	@${RM} ${OBJECTDIR}/_ext/1360937237/app.o 
-	${MP_CC}  $(MP_EXTRA_CC_PRE) -g -D__DEBUG   -fframe-base-loclist  -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -ffunction-sections -O1 -I"../src/third_party/rtos/FreeRTOS/Source/portable/MPLAB/PIC32MZ" -I"../src/third_party/rtos/FreeRTOS/Source/include" -I"../src" -I"../src/config/curiosity" -I"../src/packs/PIC32MZ2048EFM144_DFP" -Werror -Wall -MP -MMD -MF "${OBJECTDIR}/_ext/1360937237/app.o.d" -o ${OBJECTDIR}/_ext/1360937237/app.o ../src/app.c    -DXPRJ_curiosity=$(CND_CONF)  -no-legacy-libc  $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
-	
-${OBJECTDIR}/_ext/1360937237/app1.o: ../src/app1.c  .generated_files/d8390c93c483fca6e7743adc56de8cfb67e61bc4.flag .generated_files/3eda10ae19fa762b9b018eebb81f511d750eb34.flag
-	@${MKDIR} "${OBJECTDIR}/_ext/1360937237" 
-	@${RM} ${OBJECTDIR}/_ext/1360937237/app1.o.d 
-	@${RM} ${OBJECTDIR}/_ext/1360937237/app1.o 
-	${MP_CC}  $(MP_EXTRA_CC_PRE) -g -D__DEBUG   -fframe-base-loclist  -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -ffunction-sections -O1 -I"../src/third_party/rtos/FreeRTOS/Source/portable/MPLAB/PIC32MZ" -I"../src/third_party/rtos/FreeRTOS/Source/include" -I"../src" -I"../src/config/curiosity" -I"../src/packs/PIC32MZ2048EFM144_DFP" -Werror -Wall -MP -MMD -MF "${OBJECTDIR}/_ext/1360937237/app1.o.d" -o ${OBJECTDIR}/_ext/1360937237/app1.o ../src/app1.c    -DXPRJ_curiosity=$(CND_CONF)  -no-legacy-libc  $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
-	
-${OBJECTDIR}/_ext/1360937237/app2.o: ../src/app2.c  .generated_files/c7132326ad472b24cfbb2ee678116c12c1b4521d.flag .generated_files/3eda10ae19fa762b9b018eebb81f511d750eb34.flag
-	@${MKDIR} "${OBJECTDIR}/_ext/1360937237" 
-	@${RM} ${OBJECTDIR}/_ext/1360937237/app2.o.d 
-	@${RM} ${OBJECTDIR}/_ext/1360937237/app2.o 
-	${MP_CC}  $(MP_EXTRA_CC_PRE) -g -D__DEBUG   -fframe-base-loclist  -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -ffunction-sections -O1 -I"../src/third_party/rtos/FreeRTOS/Source/portable/MPLAB/PIC32MZ" -I"../src/third_party/rtos/FreeRTOS/Source/include" -I"../src" -I"../src/config/curiosity" -I"../src/packs/PIC32MZ2048EFM144_DFP" -Werror -Wall -MP -MMD -MF "${OBJECTDIR}/_ext/1360937237/app2.o.d" -o ${OBJECTDIR}/_ext/1360937237/app2.o ../src/app2.c    -DXPRJ_curiosity=$(CND_CONF)  -no-legacy-libc  $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
-	
-${OBJECTDIR}/_ext/1360937237/shared_resources.o: ../src/shared_resources.c  .generated_files/1cd5d738a789a67b5a5f0ce503de2a944bc3744.flag .generated_files/3eda10ae19fa762b9b018eebb81f511d750eb34.flag
+${OBJECTDIR}/_ext/1360937237/shared_resources.o: ../src/shared_resources.c  .generated_files/3b4b912d0e8bf1ba50ae799051464bdbbde8ecbb.flag .generated_files/3eda10ae19fa762b9b018eebb81f511d750eb34.flag
 	@${MKDIR} "${OBJECTDIR}/_ext/1360937237" 
 	@${RM} ${OBJECTDIR}/_ext/1360937237/shared_resources.o.d 
 	@${RM} ${OBJECTDIR}/_ext/1360937237/shared_resources.o 
 	${MP_CC}  $(MP_EXTRA_CC_PRE) -g -D__DEBUG   -fframe-base-loclist  -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -ffunction-sections -O1 -I"../src/third_party/rtos/FreeRTOS/Source/portable/MPLAB/PIC32MZ" -I"../src/third_party/rtos/FreeRTOS/Source/include" -I"../src" -I"../src/config/curiosity" -I"../src/packs/PIC32MZ2048EFM144_DFP" -Werror -Wall -MP -MMD -MF "${OBJECTDIR}/_ext/1360937237/shared_resources.o.d" -o ${OBJECTDIR}/_ext/1360937237/shared_resources.o ../src/shared_resources.c    -DXPRJ_curiosity=$(CND_CONF)  -no-legacy-libc  $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
 	
-${OBJECTDIR}/_ext/1360937237/app3.o: ../src/app3.c  .generated_files/8deca4281156e4be2caad081cd89d1af6d3e1c9f.flag .generated_files/3eda10ae19fa762b9b018eebb81f511d750eb34.flag
+${OBJECTDIR}/_ext/1665200909/heap_1.o: ../src/third_party/rtos/FreeRTOS/Source/portable/MemMang/heap_1.c  .generated_files/6c4ca843da65c09402d646f0e71ece3cb687f959.flag .generated_files/3eda10ae19fa762b9b018eebb81f511d750eb34.flag
+	@${MKDIR} "${OBJECTDIR}/_ext/1665200909" 
+	@${RM} ${OBJECTDIR}/_ext/1665200909/heap_1.o.d 
+	@${RM} ${OBJECTDIR}/_ext/1665200909/heap_1.o 
+	${MP_CC}  $(MP_EXTRA_CC_PRE) -g -D__DEBUG   -fframe-base-loclist  -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -ffunction-sections -O1 -I"../src/third_party/rtos/FreeRTOS/Source/portable/MPLAB/PIC32MZ" -I"../src/third_party/rtos/FreeRTOS/Source/include" -I"../src" -I"../src/config/curiosity" -I"../src/packs/PIC32MZ2048EFM144_DFP" -Werror -Wall -MP -MMD -MF "${OBJECTDIR}/_ext/1665200909/heap_1.o.d" -o ${OBJECTDIR}/_ext/1665200909/heap_1.o ../src/third_party/rtos/FreeRTOS/Source/portable/MemMang/heap_1.c    -DXPRJ_curiosity=$(CND_CONF)  -no-legacy-libc  $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
+	
+${OBJECTDIR}/_ext/951553246/port.o: ../src/third_party/rtos/FreeRTOS/Source/portable/MPLAB/PIC32MZ/port.c  .generated_files/2f59a869257d1a91ba3ad0b53f34e52736ab1dd6.flag .generated_files/3eda10ae19fa762b9b018eebb81f511d750eb34.flag
+	@${MKDIR} "${OBJECTDIR}/_ext/951553246" 
+	@${RM} ${OBJECTDIR}/_ext/951553246/port.o.d 
+	@${RM} ${OBJECTDIR}/_ext/951553246/port.o 
+	${MP_CC}  $(MP_EXTRA_CC_PRE) -g -D__DEBUG   -fframe-base-loclist  -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -ffunction-sections -O1 -I"../src/third_party/rtos/FreeRTOS/Source/portable/MPLAB/PIC32MZ" -I"../src/third_party/rtos/FreeRTOS/Source/include" -I"../src" -I"../src/config/curiosity" -I"../src/packs/PIC32MZ2048EFM144_DFP" -Werror -Wall -MP -MMD -MF "${OBJECTDIR}/_ext/951553246/port.o.d" -o ${OBJECTDIR}/_ext/951553246/port.o ../src/third_party/rtos/FreeRTOS/Source/portable/MPLAB/PIC32MZ/port.c    -DXPRJ_curiosity=$(CND_CONF)  -no-legacy-libc  $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
+	
+${OBJECTDIR}/_ext/404212886/croutine.o: ../src/third_party/rtos/FreeRTOS/Source/croutine.c  .generated_files/b6f77139601a98d40b33d7e223b188aee637b6.flag .generated_files/3eda10ae19fa762b9b018eebb81f511d750eb34.flag
+	@${MKDIR} "${OBJECTDIR}/_ext/404212886" 
+	@${RM} ${OBJECTDIR}/_ext/404212886/croutine.o.d 
+	@${RM} ${OBJECTDIR}/_ext/404212886/croutine.o 
+	${MP_CC}  $(MP_EXTRA_CC_PRE) -g -D__DEBUG   -fframe-base-loclist  -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -ffunction-sections -O1 -I"../src/third_party/rtos/FreeRTOS/Source/portable/MPLAB/PIC32MZ" -I"../src/third_party/rtos/FreeRTOS/Source/include" -I"../src" -I"../src/config/curiosity" -I"../src/packs/PIC32MZ2048EFM144_DFP" -Werror -Wall -MP -MMD -MF "${OBJECTDIR}/_ext/404212886/croutine.o.d" -o ${OBJECTDIR}/_ext/404212886/croutine.o ../src/third_party/rtos/FreeRTOS/Source/croutine.c    -DXPRJ_curiosity=$(CND_CONF)  -no-legacy-libc  $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
+	
+${OBJECTDIR}/_ext/404212886/list.o: ../src/third_party/rtos/FreeRTOS/Source/list.c  .generated_files/97b8e3ca1b2293ef194b67b6713d135a441a58c0.flag .generated_files/3eda10ae19fa762b9b018eebb81f511d750eb34.flag
+	@${MKDIR} "${OBJECTDIR}/_ext/404212886" 
+	@${RM} ${OBJECTDIR}/_ext/404212886/list.o.d 
+	@${RM} ${OBJECTDIR}/_ext/404212886/list.o 
+	${MP_CC}  $(MP_EXTRA_CC_PRE) -g -D__DEBUG   -fframe-base-loclist  -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -ffunction-sections -O1 -I"../src/third_party/rtos/FreeRTOS/Source/portable/MPLAB/PIC32MZ" -I"../src/third_party/rtos/FreeRTOS/Source/include" -I"../src" -I"../src/config/curiosity" -I"../src/packs/PIC32MZ2048EFM144_DFP" -Werror -Wall -MP -MMD -MF "${OBJECTDIR}/_ext/404212886/list.o.d" -o ${OBJECTDIR}/_ext/404212886/list.o ../src/third_party/rtos/FreeRTOS/Source/list.c    -DXPRJ_curiosity=$(CND_CONF)  -no-legacy-libc  $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
+	
+${OBJECTDIR}/_ext/404212886/queue.o: ../src/third_party/rtos/FreeRTOS/Source/queue.c  .generated_files/b3eb36fede52952fbba6938ac70ba15d4b46804d.flag .generated_files/3eda10ae19fa762b9b018eebb81f511d750eb34.flag
+	@${MKDIR} "${OBJECTDIR}/_ext/404212886" 
+	@${RM} ${OBJECTDIR}/_ext/404212886/queue.o.d 
+	@${RM} ${OBJECTDIR}/_ext/404212886/queue.o 
+	${MP_CC}  $(MP_EXTRA_CC_PRE) -g -D__DEBUG   -fframe-base-loclist  -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -ffunction-sections -O1 -I"../src/third_party/rtos/FreeRTOS/Source/portable/MPLAB/PIC32MZ" -I"../src/third_party/rtos/FreeRTOS/Source/include" -I"../src" -I"../src/config/curiosity" -I"../src/packs/PIC32MZ2048EFM144_DFP" -Werror -Wall -MP -MMD -MF "${OBJECTDIR}/_ext/404212886/queue.o.d" -o ${OBJECTDIR}/_ext/404212886/queue.o ../src/third_party/rtos/FreeRTOS/Source/queue.c    -DXPRJ_curiosity=$(CND_CONF)  -no-legacy-libc  $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
+	
+${OBJECTDIR}/_ext/404212886/FreeRTOS_tasks.o: ../src/third_party/rtos/FreeRTOS/Source/FreeRTOS_tasks.c  .generated_files/e72a58622ac8d33c5479394baf71bd0e3b9f929.flag .generated_files/3eda10ae19fa762b9b018eebb81f511d750eb34.flag
+	@${MKDIR} "${OBJECTDIR}/_ext/404212886" 
+	@${RM} ${OBJECTDIR}/_ext/404212886/FreeRTOS_tasks.o.d 
+	@${RM} ${OBJECTDIR}/_ext/404212886/FreeRTOS_tasks.o 
+	${MP_CC}  $(MP_EXTRA_CC_PRE) -g -D__DEBUG   -fframe-base-loclist  -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -ffunction-sections -O1 -I"../src/third_party/rtos/FreeRTOS/Source/portable/MPLAB/PIC32MZ" -I"../src/third_party/rtos/FreeRTOS/Source/include" -I"../src" -I"../src/config/curiosity" -I"../src/packs/PIC32MZ2048EFM144_DFP" -Werror -Wall -MP -MMD -MF "${OBJECTDIR}/_ext/404212886/FreeRTOS_tasks.o.d" -o ${OBJECTDIR}/_ext/404212886/FreeRTOS_tasks.o ../src/third_party/rtos/FreeRTOS/Source/FreeRTOS_tasks.c    -DXPRJ_curiosity=$(CND_CONF)  -no-legacy-libc  $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
+	
+${OBJECTDIR}/_ext/404212886/timers.o: ../src/third_party/rtos/FreeRTOS/Source/timers.c  .generated_files/a2da84d03f729e14fb30892bd94faa88e7346e4c.flag .generated_files/3eda10ae19fa762b9b018eebb81f511d750eb34.flag
+	@${MKDIR} "${OBJECTDIR}/_ext/404212886" 
+	@${RM} ${OBJECTDIR}/_ext/404212886/timers.o.d 
+	@${RM} ${OBJECTDIR}/_ext/404212886/timers.o 
+	${MP_CC}  $(MP_EXTRA_CC_PRE) -g -D__DEBUG   -fframe-base-loclist  -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -ffunction-sections -O1 -I"../src/third_party/rtos/FreeRTOS/Source/portable/MPLAB/PIC32MZ" -I"../src/third_party/rtos/FreeRTOS/Source/include" -I"../src" -I"../src/config/curiosity" -I"../src/packs/PIC32MZ2048EFM144_DFP" -Werror -Wall -MP -MMD -MF "${OBJECTDIR}/_ext/404212886/timers.o.d" -o ${OBJECTDIR}/_ext/404212886/timers.o ../src/third_party/rtos/FreeRTOS/Source/timers.c    -DXPRJ_curiosity=$(CND_CONF)  -no-legacy-libc  $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
+	
+${OBJECTDIR}/_ext/404212886/event_groups.o: ../src/third_party/rtos/FreeRTOS/Source/event_groups.c  .generated_files/6480302f5ffd4f2d804f94e8a41fd5301e37e712.flag .generated_files/3eda10ae19fa762b9b018eebb81f511d750eb34.flag
+	@${MKDIR} "${OBJECTDIR}/_ext/404212886" 
+	@${RM} ${OBJECTDIR}/_ext/404212886/event_groups.o.d 
+	@${RM} ${OBJECTDIR}/_ext/404212886/event_groups.o 
+	${MP_CC}  $(MP_EXTRA_CC_PRE) -g -D__DEBUG   -fframe-base-loclist  -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -ffunction-sections -O1 -I"../src/third_party/rtos/FreeRTOS/Source/portable/MPLAB/PIC32MZ" -I"../src/third_party/rtos/FreeRTOS/Source/include" -I"../src" -I"../src/config/curiosity" -I"../src/packs/PIC32MZ2048EFM144_DFP" -Werror -Wall -MP -MMD -MF "${OBJECTDIR}/_ext/404212886/event_groups.o.d" -o ${OBJECTDIR}/_ext/404212886/event_groups.o ../src/third_party/rtos/FreeRTOS/Source/event_groups.c    -DXPRJ_curiosity=$(CND_CONF)  -no-legacy-libc  $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
+	
+${OBJECTDIR}/_ext/404212886/stream_buffer.o: ../src/third_party/rtos/FreeRTOS/Source/stream_buffer.c  .generated_files/6b3ae861b462e285c3d3b6c3f5551227393030c1.flag .generated_files/3eda10ae19fa762b9b018eebb81f511d750eb34.flag
+	@${MKDIR} "${OBJECTDIR}/_ext/404212886" 
+	@${RM} ${OBJECTDIR}/_ext/404212886/stream_buffer.o.d 
+	@${RM} ${OBJECTDIR}/_ext/404212886/stream_buffer.o 
+	${MP_CC}  $(MP_EXTRA_CC_PRE) -g -D__DEBUG   -fframe-base-loclist  -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -ffunction-sections -O1 -I"../src/third_party/rtos/FreeRTOS/Source/portable/MPLAB/PIC32MZ" -I"../src/third_party/rtos/FreeRTOS/Source/include" -I"../src" -I"../src/config/curiosity" -I"../src/packs/PIC32MZ2048EFM144_DFP" -Werror -Wall -MP -MMD -MF "${OBJECTDIR}/_ext/404212886/stream_buffer.o.d" -o ${OBJECTDIR}/_ext/404212886/stream_buffer.o ../src/third_party/rtos/FreeRTOS/Source/stream_buffer.c    -DXPRJ_curiosity=$(CND_CONF)  -no-legacy-libc  $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
+	
+${OBJECTDIR}/_ext/1360937237/main.o: ../src/main.c  .generated_files/4bac980ff181366d8529a6afdd03e6110b535e6b.flag .generated_files/3eda10ae19fa762b9b018eebb81f511d750eb34.flag
+	@${MKDIR} "${OBJECTDIR}/_ext/1360937237" 
+	@${RM} ${OBJECTDIR}/_ext/1360937237/main.o.d 
+	@${RM} ${OBJECTDIR}/_ext/1360937237/main.o 
+	${MP_CC}  $(MP_EXTRA_CC_PRE) -g -D__DEBUG   -fframe-base-loclist  -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -ffunction-sections -O1 -I"../src/third_party/rtos/FreeRTOS/Source/portable/MPLAB/PIC32MZ" -I"../src/third_party/rtos/FreeRTOS/Source/include" -I"../src" -I"../src/config/curiosity" -I"../src/packs/PIC32MZ2048EFM144_DFP" -Werror -Wall -MP -MMD -MF "${OBJECTDIR}/_ext/1360937237/main.o.d" -o ${OBJECTDIR}/_ext/1360937237/main.o ../src/main.c    -DXPRJ_curiosity=$(CND_CONF)  -no-legacy-libc  $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
+	
+${OBJECTDIR}/_ext/1360937237/app.o: ../src/app.c  .generated_files/af9741674b3cfab9195760669cb7cc24734ad9ee.flag .generated_files/3eda10ae19fa762b9b018eebb81f511d750eb34.flag
+	@${MKDIR} "${OBJECTDIR}/_ext/1360937237" 
+	@${RM} ${OBJECTDIR}/_ext/1360937237/app.o.d 
+	@${RM} ${OBJECTDIR}/_ext/1360937237/app.o 
+	${MP_CC}  $(MP_EXTRA_CC_PRE) -g -D__DEBUG   -fframe-base-loclist  -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -ffunction-sections -O1 -I"../src/third_party/rtos/FreeRTOS/Source/portable/MPLAB/PIC32MZ" -I"../src/third_party/rtos/FreeRTOS/Source/include" -I"../src" -I"../src/config/curiosity" -I"../src/packs/PIC32MZ2048EFM144_DFP" -Werror -Wall -MP -MMD -MF "${OBJECTDIR}/_ext/1360937237/app.o.d" -o ${OBJECTDIR}/_ext/1360937237/app.o ../src/app.c    -DXPRJ_curiosity=$(CND_CONF)  -no-legacy-libc  $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
+	
+${OBJECTDIR}/_ext/1360937237/app1.o: ../src/app1.c  .generated_files/821dcaf725eba8ebc63e6df81a4625b13d68fcfd.flag .generated_files/3eda10ae19fa762b9b018eebb81f511d750eb34.flag
+	@${MKDIR} "${OBJECTDIR}/_ext/1360937237" 
+	@${RM} ${OBJECTDIR}/_ext/1360937237/app1.o.d 
+	@${RM} ${OBJECTDIR}/_ext/1360937237/app1.o 
+	${MP_CC}  $(MP_EXTRA_CC_PRE) -g -D__DEBUG   -fframe-base-loclist  -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -ffunction-sections -O1 -I"../src/third_party/rtos/FreeRTOS/Source/portable/MPLAB/PIC32MZ" -I"../src/third_party/rtos/FreeRTOS/Source/include" -I"../src" -I"../src/config/curiosity" -I"../src/packs/PIC32MZ2048EFM144_DFP" -Werror -Wall -MP -MMD -MF "${OBJECTDIR}/_ext/1360937237/app1.o.d" -o ${OBJECTDIR}/_ext/1360937237/app1.o ../src/app1.c    -DXPRJ_curiosity=$(CND_CONF)  -no-legacy-libc  $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
+	
+${OBJECTDIR}/_ext/1360937237/app2.o: ../src/app2.c  .generated_files/5cfccc63cadbccca53d3ef0be1c79d523edfcc4b.flag .generated_files/3eda10ae19fa762b9b018eebb81f511d750eb34.flag
+	@${MKDIR} "${OBJECTDIR}/_ext/1360937237" 
+	@${RM} ${OBJECTDIR}/_ext/1360937237/app2.o.d 
+	@${RM} ${OBJECTDIR}/_ext/1360937237/app2.o 
+	${MP_CC}  $(MP_EXTRA_CC_PRE) -g -D__DEBUG   -fframe-base-loclist  -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -ffunction-sections -O1 -I"../src/third_party/rtos/FreeRTOS/Source/portable/MPLAB/PIC32MZ" -I"../src/third_party/rtos/FreeRTOS/Source/include" -I"../src" -I"../src/config/curiosity" -I"../src/packs/PIC32MZ2048EFM144_DFP" -Werror -Wall -MP -MMD -MF "${OBJECTDIR}/_ext/1360937237/app2.o.d" -o ${OBJECTDIR}/_ext/1360937237/app2.o ../src/app2.c    -DXPRJ_curiosity=$(CND_CONF)  -no-legacy-libc  $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
+	
+${OBJECTDIR}/_ext/1360937237/app3.o: ../src/app3.c  .generated_files/161c00815de73555af0db88615deeed0129fa4fb.flag .generated_files/3eda10ae19fa762b9b018eebb81f511d750eb34.flag
 	@${MKDIR} "${OBJECTDIR}/_ext/1360937237" 
 	@${RM} ${OBJECTDIR}/_ext/1360937237/app3.o.d 
 	@${RM} ${OBJECTDIR}/_ext/1360937237/app3.o 
 	${MP_CC}  $(MP_EXTRA_CC_PRE) -g -D__DEBUG   -fframe-base-loclist  -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -ffunction-sections -O1 -I"../src/third_party/rtos/FreeRTOS/Source/portable/MPLAB/PIC32MZ" -I"../src/third_party/rtos/FreeRTOS/Source/include" -I"../src" -I"../src/config/curiosity" -I"../src/packs/PIC32MZ2048EFM144_DFP" -Werror -Wall -MP -MMD -MF "${OBJECTDIR}/_ext/1360937237/app3.o.d" -o ${OBJECTDIR}/_ext/1360937237/app3.o ../src/app3.c    -DXPRJ_curiosity=$(CND_CONF)  -no-legacy-libc  $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
 	
 else
-${OBJECTDIR}/_ext/1430439760/plib_clk.o: ../src/config/curiosity/peripheral/clk/plib_clk.c  .generated_files/f0b543874b247ba895267d0194d2c6a45811ef25.flag .generated_files/3eda10ae19fa762b9b018eebb81f511d750eb34.flag
+${OBJECTDIR}/_ext/1430439760/plib_clk.o: ../src/config/curiosity/peripheral/clk/plib_clk.c  .generated_files/24c5a3aa529756da52146baaa26bca92fa27a353.flag .generated_files/3eda10ae19fa762b9b018eebb81f511d750eb34.flag
 	@${MKDIR} "${OBJECTDIR}/_ext/1430439760" 
 	@${RM} ${OBJECTDIR}/_ext/1430439760/plib_clk.o.d 
 	@${RM} ${OBJECTDIR}/_ext/1430439760/plib_clk.o 
 	${MP_CC}  $(MP_EXTRA_CC_PRE)  -g -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -ffunction-sections -O1 -I"../src/third_party/rtos/FreeRTOS/Source/portable/MPLAB/PIC32MZ" -I"../src/third_party/rtos/FreeRTOS/Source/include" -I"../src" -I"../src/config/curiosity" -I"../src/packs/PIC32MZ2048EFM144_DFP" -Werror -Wall -MP -MMD -MF "${OBJECTDIR}/_ext/1430439760/plib_clk.o.d" -o ${OBJECTDIR}/_ext/1430439760/plib_clk.o ../src/config/curiosity/peripheral/clk/plib_clk.c    -DXPRJ_curiosity=$(CND_CONF)  -no-legacy-libc  $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
 	
-${OBJECTDIR}/_ext/1394028829/plib_evic.o: ../src/config/curiosity/peripheral/evic/plib_evic.c  .generated_files/4c56df8306f3c7258079ea6648032dbbeaaa8223.flag .generated_files/3eda10ae19fa762b9b018eebb81f511d750eb34.flag
+${OBJECTDIR}/_ext/1394028829/plib_evic.o: ../src/config/curiosity/peripheral/evic/plib_evic.c  .generated_files/70b5a8efcb3262ca47445d7ca669a058a7ba689a.flag .generated_files/3eda10ae19fa762b9b018eebb81f511d750eb34.flag
 	@${MKDIR} "${OBJECTDIR}/_ext/1394028829" 
 	@${RM} ${OBJECTDIR}/_ext/1394028829/plib_evic.o.d 
 	@${RM} ${OBJECTDIR}/_ext/1394028829/plib_evic.o 
 	${MP_CC}  $(MP_EXTRA_CC_PRE)  -g -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -ffunction-sections -O1 -I"../src/third_party/rtos/FreeRTOS/Source/portable/MPLAB/PIC32MZ" -I"../src/third_party/rtos/FreeRTOS/Source/include" -I"../src" -I"../src/config/curiosity" -I"../src/packs/PIC32MZ2048EFM144_DFP" -Werror -Wall -MP -MMD -MF "${OBJECTDIR}/_ext/1394028829/plib_evic.o.d" -o ${OBJECTDIR}/_ext/1394028829/plib_evic.o ../src/config/curiosity/peripheral/evic/plib_evic.c    -DXPRJ_curiosity=$(CND_CONF)  -no-legacy-libc  $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
 	
-${OBJECTDIR}/_ext/1394082657/plib_gpio.o: ../src/config/curiosity/peripheral/gpio/plib_gpio.c  .generated_files/6388f355718e963ed0744aabfd412b85b4020c51.flag .generated_files/3eda10ae19fa762b9b018eebb81f511d750eb34.flag
+${OBJECTDIR}/_ext/1394082657/plib_gpio.o: ../src/config/curiosity/peripheral/gpio/plib_gpio.c  .generated_files/5bbf2c293f0c079629d5a4c00af1eb5fa89caaa2.flag .generated_files/3eda10ae19fa762b9b018eebb81f511d750eb34.flag
 	@${MKDIR} "${OBJECTDIR}/_ext/1394082657" 
 	@${RM} ${OBJECTDIR}/_ext/1394082657/plib_gpio.o.d 
 	@${RM} ${OBJECTDIR}/_ext/1394082657/plib_gpio.o 
 	${MP_CC}  $(MP_EXTRA_CC_PRE)  -g -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -ffunction-sections -O1 -I"../src/third_party/rtos/FreeRTOS/Source/portable/MPLAB/PIC32MZ" -I"../src/third_party/rtos/FreeRTOS/Source/include" -I"../src" -I"../src/config/curiosity" -I"../src/packs/PIC32MZ2048EFM144_DFP" -Werror -Wall -MP -MMD -MF "${OBJECTDIR}/_ext/1394082657/plib_gpio.o.d" -o ${OBJECTDIR}/_ext/1394082657/plib_gpio.o ../src/config/curiosity/peripheral/gpio/plib_gpio.c    -DXPRJ_curiosity=$(CND_CONF)  -no-legacy-libc  $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
 	
-${OBJECTDIR}/_ext/1430456135/plib_tmr2.o: ../src/config/curiosity/peripheral/tmr/plib_tmr2.c  .generated_files/e8e15ed8779b5ac11975090ebe1886d6f2fcabc6.flag .generated_files/3eda10ae19fa762b9b018eebb81f511d750eb34.flag
+${OBJECTDIR}/_ext/1430456135/plib_tmr2.o: ../src/config/curiosity/peripheral/tmr/plib_tmr2.c  .generated_files/ce877353cbd55299e4b66a7c1fef91857e6afb53.flag .generated_files/3eda10ae19fa762b9b018eebb81f511d750eb34.flag
 	@${MKDIR} "${OBJECTDIR}/_ext/1430456135" 
 	@${RM} ${OBJECTDIR}/_ext/1430456135/plib_tmr2.o.d 
 	@${RM} ${OBJECTDIR}/_ext/1430456135/plib_tmr2.o 
 	${MP_CC}  $(MP_EXTRA_CC_PRE)  -g -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -ffunction-sections -O1 -I"../src/third_party/rtos/FreeRTOS/Source/portable/MPLAB/PIC32MZ" -I"../src/third_party/rtos/FreeRTOS/Source/include" -I"../src" -I"../src/config/curiosity" -I"../src/packs/PIC32MZ2048EFM144_DFP" -Werror -Wall -MP -MMD -MF "${OBJECTDIR}/_ext/1430456135/plib_tmr2.o.d" -o ${OBJECTDIR}/_ext/1430456135/plib_tmr2.o ../src/config/curiosity/peripheral/tmr/plib_tmr2.c    -DXPRJ_curiosity=$(CND_CONF)  -no-legacy-libc  $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
 	
-${OBJECTDIR}/_ext/1394485600/plib_uart6.o: ../src/config/curiosity/peripheral/uart/plib_uart6.c  .generated_files/81d487368001e496b2b8df3d928744a55ed7a8fa.flag .generated_files/3eda10ae19fa762b9b018eebb81f511d750eb34.flag
+${OBJECTDIR}/_ext/1394485600/plib_uart6.o: ../src/config/curiosity/peripheral/uart/plib_uart6.c  .generated_files/99bfbb20d2d9ee1960fc4afaf79d78d108981cc1.flag .generated_files/3eda10ae19fa762b9b018eebb81f511d750eb34.flag
 	@${MKDIR} "${OBJECTDIR}/_ext/1394485600" 
 	@${RM} ${OBJECTDIR}/_ext/1394485600/plib_uart6.o.d 
 	@${RM} ${OBJECTDIR}/_ext/1394485600/plib_uart6.o 
 	${MP_CC}  $(MP_EXTRA_CC_PRE)  -g -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -ffunction-sections -O1 -I"../src/third_party/rtos/FreeRTOS/Source/portable/MPLAB/PIC32MZ" -I"../src/third_party/rtos/FreeRTOS/Source/include" -I"../src" -I"../src/config/curiosity" -I"../src/packs/PIC32MZ2048EFM144_DFP" -Werror -Wall -MP -MMD -MF "${OBJECTDIR}/_ext/1394485600/plib_uart6.o.d" -o ${OBJECTDIR}/_ext/1394485600/plib_uart6.o ../src/config/curiosity/peripheral/uart/plib_uart6.c    -DXPRJ_curiosity=$(CND_CONF)  -no-legacy-libc  $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
 	
-${OBJECTDIR}/_ext/1330622504/xc32_monitor.o: ../src/config/curiosity/stdio/xc32_monitor.c  .generated_files/887748a3a9b21c6a8cc27afda3321551655ccd45.flag .generated_files/3eda10ae19fa762b9b018eebb81f511d750eb34.flag
+${OBJECTDIR}/_ext/1330622504/xc32_monitor.o: ../src/config/curiosity/stdio/xc32_monitor.c  .generated_files/28d76e14ecb2d0cf1ca6d1d5822385b8b25d05ba.flag .generated_files/3eda10ae19fa762b9b018eebb81f511d750eb34.flag
 	@${MKDIR} "${OBJECTDIR}/_ext/1330622504" 
 	@${RM} ${OBJECTDIR}/_ext/1330622504/xc32_monitor.o.d 
 	@${RM} ${OBJECTDIR}/_ext/1330622504/xc32_monitor.o 
 	${MP_CC}  $(MP_EXTRA_CC_PRE)  -g -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -ffunction-sections -O1 -I"../src/third_party/rtos/FreeRTOS/Source/portable/MPLAB/PIC32MZ" -I"../src/third_party/rtos/FreeRTOS/Source/include" -I"../src" -I"../src/config/curiosity" -I"../src/packs/PIC32MZ2048EFM144_DFP" -Werror -Wall -MP -MMD -MF "${OBJECTDIR}/_ext/1330622504/xc32_monitor.o.d" -o ${OBJECTDIR}/_ext/1330622504/xc32_monitor.o ../src/config/curiosity/stdio/xc32_monitor.c    -DXPRJ_curiosity=$(CND_CONF)  -no-legacy-libc  $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
 	
-${OBJECTDIR}/_ext/1862105362/initialization.o: ../src/config/curiosity/initialization.c  .generated_files/720b8f2ef3e5f733eac614fddc75556e6d375c17.flag .generated_files/3eda10ae19fa762b9b018eebb81f511d750eb34.flag
+${OBJECTDIR}/_ext/1862105362/initialization.o: ../src/config/curiosity/initialization.c  .generated_files/65918dff159d726127fc727b11f4606c0dcfc724.flag .generated_files/3eda10ae19fa762b9b018eebb81f511d750eb34.flag
 	@${MKDIR} "${OBJECTDIR}/_ext/1862105362" 
 	@${RM} ${OBJECTDIR}/_ext/1862105362/initialization.o.d 
 	@${RM} ${OBJECTDIR}/_ext/1862105362/initialization.o 
 	${MP_CC}  $(MP_EXTRA_CC_PRE)  -g -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -ffunction-sections -O1 -I"../src/third_party/rtos/FreeRTOS/Source/portable/MPLAB/PIC32MZ" -I"../src/third_party/rtos/FreeRTOS/Source/include" -I"../src" -I"../src/config/curiosity" -I"../src/packs/PIC32MZ2048EFM144_DFP" -Werror -Wall -MP -MMD -MF "${OBJECTDIR}/_ext/1862105362/initialization.o.d" -o ${OBJECTDIR}/_ext/1862105362/initialization.o ../src/config/curiosity/initialization.c    -DXPRJ_curiosity=$(CND_CONF)  -no-legacy-libc  $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
 	
-${OBJECTDIR}/_ext/1862105362/interrupts.o: ../src/config/curiosity/interrupts.c  .generated_files/3c5fa057d2b16e2a1876eb56b742a76924876f5d.flag .generated_files/3eda10ae19fa762b9b018eebb81f511d750eb34.flag
+${OBJECTDIR}/_ext/1862105362/interrupts.o: ../src/config/curiosity/interrupts.c  .generated_files/94d0f36093ded994786741f88c38a2cb719f0e3c.flag .generated_files/3eda10ae19fa762b9b018eebb81f511d750eb34.flag
 	@${MKDIR} "${OBJECTDIR}/_ext/1862105362" 
 	@${RM} ${OBJECTDIR}/_ext/1862105362/interrupts.o.d 
 	@${RM} ${OBJECTDIR}/_ext/1862105362/interrupts.o 
 	${MP_CC}  $(MP_EXTRA_CC_PRE)  -g -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -ffunction-sections -O1 -I"../src/third_party/rtos/FreeRTOS/Source/portable/MPLAB/PIC32MZ" -I"../src/third_party/rtos/FreeRTOS/Source/include" -I"../src" -I"../src/config/curiosity" -I"../src/packs/PIC32MZ2048EFM144_DFP" -Werror -Wall -MP -MMD -MF "${OBJECTDIR}/_ext/1862105362/interrupts.o.d" -o ${OBJECTDIR}/_ext/1862105362/interrupts.o ../src/config/curiosity/interrupts.c    -DXPRJ_curiosity=$(CND_CONF)  -no-legacy-libc  $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
 	
-${OBJECTDIR}/_ext/1862105362/exceptions.o: ../src/config/curiosity/exceptions.c  .generated_files/6d4de3d4cef599d219d242d15ee0736ad44049c4.flag .generated_files/3eda10ae19fa762b9b018eebb81f511d750eb34.flag
+${OBJECTDIR}/_ext/1862105362/exceptions.o: ../src/config/curiosity/exceptions.c  .generated_files/989105aaa9bef24ea9321c9e3e8c57a7cc2876d8.flag .generated_files/3eda10ae19fa762b9b018eebb81f511d750eb34.flag
 	@${MKDIR} "${OBJECTDIR}/_ext/1862105362" 
 	@${RM} ${OBJECTDIR}/_ext/1862105362/exceptions.o.d 
 	@${RM} ${OBJECTDIR}/_ext/1862105362/exceptions.o 
 	${MP_CC}  $(MP_EXTRA_CC_PRE)  -g -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -ffunction-sections -O1 -I"../src/third_party/rtos/FreeRTOS/Source/portable/MPLAB/PIC32MZ" -I"../src/third_party/rtos/FreeRTOS/Source/include" -I"../src" -I"../src/config/curiosity" -I"../src/packs/PIC32MZ2048EFM144_DFP" -Werror -Wall -MP -MMD -MF "${OBJECTDIR}/_ext/1862105362/exceptions.o.d" -o ${OBJECTDIR}/_ext/1862105362/exceptions.o ../src/config/curiosity/exceptions.c    -DXPRJ_curiosity=$(CND_CONF)  -no-legacy-libc  $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
 	
-${OBJECTDIR}/_ext/1862105362/freertos_hooks.o: ../src/config/curiosity/freertos_hooks.c  .generated_files/f5d2eb7d13001ce925d608a176048fd7737fd495.flag .generated_files/3eda10ae19fa762b9b018eebb81f511d750eb34.flag
+${OBJECTDIR}/_ext/1862105362/freertos_hooks.o: ../src/config/curiosity/freertos_hooks.c  .generated_files/c7c15372abc9616a0ac547f097b1fddbb98a2f75.flag .generated_files/3eda10ae19fa762b9b018eebb81f511d750eb34.flag
 	@${MKDIR} "${OBJECTDIR}/_ext/1862105362" 
 	@${RM} ${OBJECTDIR}/_ext/1862105362/freertos_hooks.o.d 
 	@${RM} ${OBJECTDIR}/_ext/1862105362/freertos_hooks.o 
 	${MP_CC}  $(MP_EXTRA_CC_PRE)  -g -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -ffunction-sections -O1 -I"../src/third_party/rtos/FreeRTOS/Source/portable/MPLAB/PIC32MZ" -I"../src/third_party/rtos/FreeRTOS/Source/include" -I"../src" -I"../src/config/curiosity" -I"../src/packs/PIC32MZ2048EFM144_DFP" -Werror -Wall -MP -MMD -MF "${OBJECTDIR}/_ext/1862105362/freertos_hooks.o.d" -o ${OBJECTDIR}/_ext/1862105362/freertos_hooks.o ../src/config/curiosity/freertos_hooks.c    -DXPRJ_curiosity=$(CND_CONF)  -no-legacy-libc  $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
 	
-${OBJECTDIR}/_ext/1862105362/tasks.o: ../src/config/curiosity/tasks.c  .generated_files/644dfb1924547f30eed9e7457ed52fb359f9106a.flag .generated_files/3eda10ae19fa762b9b018eebb81f511d750eb34.flag
+${OBJECTDIR}/_ext/1862105362/tasks.o: ../src/config/curiosity/tasks.c  .generated_files/156409969b9dbe9fb453333fc6d2006e13e138f8.flag .generated_files/3eda10ae19fa762b9b018eebb81f511d750eb34.flag
 	@${MKDIR} "${OBJECTDIR}/_ext/1862105362" 
 	@${RM} ${OBJECTDIR}/_ext/1862105362/tasks.o.d 
 	@${RM} ${OBJECTDIR}/_ext/1862105362/tasks.o 
 	${MP_CC}  $(MP_EXTRA_CC_PRE)  -g -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -ffunction-sections -O1 -I"../src/third_party/rtos/FreeRTOS/Source/portable/MPLAB/PIC32MZ" -I"../src/third_party/rtos/FreeRTOS/Source/include" -I"../src" -I"../src/config/curiosity" -I"../src/packs/PIC32MZ2048EFM144_DFP" -Werror -Wall -MP -MMD -MF "${OBJECTDIR}/_ext/1862105362/tasks.o.d" -o ${OBJECTDIR}/_ext/1862105362/tasks.o ../src/config/curiosity/tasks.c    -DXPRJ_curiosity=$(CND_CONF)  -no-legacy-libc  $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
 	
-${OBJECTDIR}/_ext/1665200909/heap_1.o: ../src/third_party/rtos/FreeRTOS/Source/portable/MemMang/heap_1.c  .generated_files/6d7ad47fe12936e402f0d56b00237394b9291376.flag .generated_files/3eda10ae19fa762b9b018eebb81f511d750eb34.flag
-	@${MKDIR} "${OBJECTDIR}/_ext/1665200909" 
-	@${RM} ${OBJECTDIR}/_ext/1665200909/heap_1.o.d 
-	@${RM} ${OBJECTDIR}/_ext/1665200909/heap_1.o 
-	${MP_CC}  $(MP_EXTRA_CC_PRE)  -g -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -ffunction-sections -O1 -I"../src/third_party/rtos/FreeRTOS/Source/portable/MPLAB/PIC32MZ" -I"../src/third_party/rtos/FreeRTOS/Source/include" -I"../src" -I"../src/config/curiosity" -I"../src/packs/PIC32MZ2048EFM144_DFP" -Werror -Wall -MP -MMD -MF "${OBJECTDIR}/_ext/1665200909/heap_1.o.d" -o ${OBJECTDIR}/_ext/1665200909/heap_1.o ../src/third_party/rtos/FreeRTOS/Source/portable/MemMang/heap_1.c    -DXPRJ_curiosity=$(CND_CONF)  -no-legacy-libc  $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
-	
-${OBJECTDIR}/_ext/951553246/port.o: ../src/third_party/rtos/FreeRTOS/Source/portable/MPLAB/PIC32MZ/port.c  .generated_files/4a0b95d4b240de43aefa4d5a6b1730557c21a35e.flag .generated_files/3eda10ae19fa762b9b018eebb81f511d750eb34.flag
-	@${MKDIR} "${OBJECTDIR}/_ext/951553246" 
-	@${RM} ${OBJECTDIR}/_ext/951553246/port.o.d 
-	@${RM} ${OBJECTDIR}/_ext/951553246/port.o 
-	${MP_CC}  $(MP_EXTRA_CC_PRE)  -g -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -ffunction-sections -O1 -I"../src/third_party/rtos/FreeRTOS/Source/portable/MPLAB/PIC32MZ" -I"../src/third_party/rtos/FreeRTOS/Source/include" -I"../src" -I"../src/config/curiosity" -I"../src/packs/PIC32MZ2048EFM144_DFP" -Werror -Wall -MP -MMD -MF "${OBJECTDIR}/_ext/951553246/port.o.d" -o ${OBJECTDIR}/_ext/951553246/port.o ../src/third_party/rtos/FreeRTOS/Source/portable/MPLAB/PIC32MZ/port.c    -DXPRJ_curiosity=$(CND_CONF)  -no-legacy-libc  $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
-	
-${OBJECTDIR}/_ext/404212886/croutine.o: ../src/third_party/rtos/FreeRTOS/Source/croutine.c  .generated_files/80a5b4b45404a3a439cfd0bddbdebb7057bd5afc.flag .generated_files/3eda10ae19fa762b9b018eebb81f511d750eb34.flag
-	@${MKDIR} "${OBJECTDIR}/_ext/404212886" 
-	@${RM} ${OBJECTDIR}/_ext/404212886/croutine.o.d 
-	@${RM} ${OBJECTDIR}/_ext/404212886/croutine.o 
-	${MP_CC}  $(MP_EXTRA_CC_PRE)  -g -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -ffunction-sections -O1 -I"../src/third_party/rtos/FreeRTOS/Source/portable/MPLAB/PIC32MZ" -I"../src/third_party/rtos/FreeRTOS/Source/include" -I"../src" -I"../src/config/curiosity" -I"../src/packs/PIC32MZ2048EFM144_DFP" -Werror -Wall -MP -MMD -MF "${OBJECTDIR}/_ext/404212886/croutine.o.d" -o ${OBJECTDIR}/_ext/404212886/croutine.o ../src/third_party/rtos/FreeRTOS/Source/croutine.c    -DXPRJ_curiosity=$(CND_CONF)  -no-legacy-libc  $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
-	
-${OBJECTDIR}/_ext/404212886/list.o: ../src/third_party/rtos/FreeRTOS/Source/list.c  .generated_files/f5fb74b04d4cfd518a5bea70d04d991879b734d9.flag .generated_files/3eda10ae19fa762b9b018eebb81f511d750eb34.flag
-	@${MKDIR} "${OBJECTDIR}/_ext/404212886" 
-	@${RM} ${OBJECTDIR}/_ext/404212886/list.o.d 
-	@${RM} ${OBJECTDIR}/_ext/404212886/list.o 
-	${MP_CC}  $(MP_EXTRA_CC_PRE)  -g -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -ffunction-sections -O1 -I"../src/third_party/rtos/FreeRTOS/Source/portable/MPLAB/PIC32MZ" -I"../src/third_party/rtos/FreeRTOS/Source/include" -I"../src" -I"../src/config/curiosity" -I"../src/packs/PIC32MZ2048EFM144_DFP" -Werror -Wall -MP -MMD -MF "${OBJECTDIR}/_ext/404212886/list.o.d" -o ${OBJECTDIR}/_ext/404212886/list.o ../src/third_party/rtos/FreeRTOS/Source/list.c    -DXPRJ_curiosity=$(CND_CONF)  -no-legacy-libc  $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
-	
-${OBJECTDIR}/_ext/404212886/queue.o: ../src/third_party/rtos/FreeRTOS/Source/queue.c  .generated_files/ace9f39eb5e1f01188917d841c062fba1ec6fa98.flag .generated_files/3eda10ae19fa762b9b018eebb81f511d750eb34.flag
-	@${MKDIR} "${OBJECTDIR}/_ext/404212886" 
-	@${RM} ${OBJECTDIR}/_ext/404212886/queue.o.d 
-	@${RM} ${OBJECTDIR}/_ext/404212886/queue.o 
-	${MP_CC}  $(MP_EXTRA_CC_PRE)  -g -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -ffunction-sections -O1 -I"../src/third_party/rtos/FreeRTOS/Source/portable/MPLAB/PIC32MZ" -I"../src/third_party/rtos/FreeRTOS/Source/include" -I"../src" -I"../src/config/curiosity" -I"../src/packs/PIC32MZ2048EFM144_DFP" -Werror -Wall -MP -MMD -MF "${OBJECTDIR}/_ext/404212886/queue.o.d" -o ${OBJECTDIR}/_ext/404212886/queue.o ../src/third_party/rtos/FreeRTOS/Source/queue.c    -DXPRJ_curiosity=$(CND_CONF)  -no-legacy-libc  $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
-	
-${OBJECTDIR}/_ext/404212886/FreeRTOS_tasks.o: ../src/third_party/rtos/FreeRTOS/Source/FreeRTOS_tasks.c  .generated_files/55b45df09dc13d6714c91ce4465cf9a00ddf0048.flag .generated_files/3eda10ae19fa762b9b018eebb81f511d750eb34.flag
-	@${MKDIR} "${OBJECTDIR}/_ext/404212886" 
-	@${RM} ${OBJECTDIR}/_ext/404212886/FreeRTOS_tasks.o.d 
-	@${RM} ${OBJECTDIR}/_ext/404212886/FreeRTOS_tasks.o 
-	${MP_CC}  $(MP_EXTRA_CC_PRE)  -g -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -ffunction-sections -O1 -I"../src/third_party/rtos/FreeRTOS/Source/portable/MPLAB/PIC32MZ" -I"../src/third_party/rtos/FreeRTOS/Source/include" -I"../src" -I"../src/config/curiosity" -I"../src/packs/PIC32MZ2048EFM144_DFP" -Werror -Wall -MP -MMD -MF "${OBJECTDIR}/_ext/404212886/FreeRTOS_tasks.o.d" -o ${OBJECTDIR}/_ext/404212886/FreeRTOS_tasks.o ../src/third_party/rtos/FreeRTOS/Source/FreeRTOS_tasks.c    -DXPRJ_curiosity=$(CND_CONF)  -no-legacy-libc  $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
-	
-${OBJECTDIR}/_ext/404212886/timers.o: ../src/third_party/rtos/FreeRTOS/Source/timers.c  .generated_files/7d5b12add9344dea07b83f405d882d79b3b1389f.flag .generated_files/3eda10ae19fa762b9b018eebb81f511d750eb34.flag
-	@${MKDIR} "${OBJECTDIR}/_ext/404212886" 
-	@${RM} ${OBJECTDIR}/_ext/404212886/timers.o.d 
-	@${RM} ${OBJECTDIR}/_ext/404212886/timers.o 
-	${MP_CC}  $(MP_EXTRA_CC_PRE)  -g -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -ffunction-sections -O1 -I"../src/third_party/rtos/FreeRTOS/Source/portable/MPLAB/PIC32MZ" -I"../src/third_party/rtos/FreeRTOS/Source/include" -I"../src" -I"../src/config/curiosity" -I"../src/packs/PIC32MZ2048EFM144_DFP" -Werror -Wall -MP -MMD -MF "${OBJECTDIR}/_ext/404212886/timers.o.d" -o ${OBJECTDIR}/_ext/404212886/timers.o ../src/third_party/rtos/FreeRTOS/Source/timers.c    -DXPRJ_curiosity=$(CND_CONF)  -no-legacy-libc  $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
-	
-${OBJECTDIR}/_ext/404212886/event_groups.o: ../src/third_party/rtos/FreeRTOS/Source/event_groups.c  .generated_files/d6976ec547b006310c25a626d6434bf02325bbd7.flag .generated_files/3eda10ae19fa762b9b018eebb81f511d750eb34.flag
-	@${MKDIR} "${OBJECTDIR}/_ext/404212886" 
-	@${RM} ${OBJECTDIR}/_ext/404212886/event_groups.o.d 
-	@${RM} ${OBJECTDIR}/_ext/404212886/event_groups.o 
-	${MP_CC}  $(MP_EXTRA_CC_PRE)  -g -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -ffunction-sections -O1 -I"../src/third_party/rtos/FreeRTOS/Source/portable/MPLAB/PIC32MZ" -I"../src/third_party/rtos/FreeRTOS/Source/include" -I"../src" -I"../src/config/curiosity" -I"../src/packs/PIC32MZ2048EFM144_DFP" -Werror -Wall -MP -MMD -MF "${OBJECTDIR}/_ext/404212886/event_groups.o.d" -o ${OBJECTDIR}/_ext/404212886/event_groups.o ../src/third_party/rtos/FreeRTOS/Source/event_groups.c    -DXPRJ_curiosity=$(CND_CONF)  -no-legacy-libc  $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
-	
-${OBJECTDIR}/_ext/404212886/stream_buffer.o: ../src/third_party/rtos/FreeRTOS/Source/stream_buffer.c  .generated_files/a89a3fbaf18f8049dece7ad3903749a94e693f9b.flag .generated_files/3eda10ae19fa762b9b018eebb81f511d750eb34.flag
-	@${MKDIR} "${OBJECTDIR}/_ext/404212886" 
-	@${RM} ${OBJECTDIR}/_ext/404212886/stream_buffer.o.d 
-	@${RM} ${OBJECTDIR}/_ext/404212886/stream_buffer.o 
-	${MP_CC}  $(MP_EXTRA_CC_PRE)  -g -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -ffunction-sections -O1 -I"../src/third_party/rtos/FreeRTOS/Source/portable/MPLAB/PIC32MZ" -I"../src/third_party/rtos/FreeRTOS/Source/include" -I"../src" -I"../src/config/curiosity" -I"../src/packs/PIC32MZ2048EFM144_DFP" -Werror -Wall -MP -MMD -MF "${OBJECTDIR}/_ext/404212886/stream_buffer.o.d" -o ${OBJECTDIR}/_ext/404212886/stream_buffer.o ../src/third_party/rtos/FreeRTOS/Source/stream_buffer.c    -DXPRJ_curiosity=$(CND_CONF)  -no-legacy-libc  $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
-	
-${OBJECTDIR}/_ext/1360937237/main.o: ../src/main.c  .generated_files/42afa5710e9e595c8cab990ca2b6ab309d9eb336.flag .generated_files/3eda10ae19fa762b9b018eebb81f511d750eb34.flag
-	@${MKDIR} "${OBJECTDIR}/_ext/1360937237" 
-	@${RM} ${OBJECTDIR}/_ext/1360937237/main.o.d 
-	@${RM} ${OBJECTDIR}/_ext/1360937237/main.o 
-	${MP_CC}  $(MP_EXTRA_CC_PRE)  -g -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -ffunction-sections -O1 -I"../src/third_party/rtos/FreeRTOS/Source/portable/MPLAB/PIC32MZ" -I"../src/third_party/rtos/FreeRTOS/Source/include" -I"../src" -I"../src/config/curiosity" -I"../src/packs/PIC32MZ2048EFM144_DFP" -Werror -Wall -MP -MMD -MF "${OBJECTDIR}/_ext/1360937237/main.o.d" -o ${OBJECTDIR}/_ext/1360937237/main.o ../src/main.c    -DXPRJ_curiosity=$(CND_CONF)  -no-legacy-libc  $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
-	
-${OBJECTDIR}/_ext/1360937237/app.o: ../src/app.c  .generated_files/3ca2eaaf0cb9690647eaa1035080dfe6165f1771.flag .generated_files/3eda10ae19fa762b9b018eebb81f511d750eb34.flag
-	@${MKDIR} "${OBJECTDIR}/_ext/1360937237" 
-	@${RM} ${OBJECTDIR}/_ext/1360937237/app.o.d 
-	@${RM} ${OBJECTDIR}/_ext/1360937237/app.o 
-	${MP_CC}  $(MP_EXTRA_CC_PRE)  -g -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -ffunction-sections -O1 -I"../src/third_party/rtos/FreeRTOS/Source/portable/MPLAB/PIC32MZ" -I"../src/third_party/rtos/FreeRTOS/Source/include" -I"../src" -I"../src/config/curiosity" -I"../src/packs/PIC32MZ2048EFM144_DFP" -Werror -Wall -MP -MMD -MF "${OBJECTDIR}/_ext/1360937237/app.o.d" -o ${OBJECTDIR}/_ext/1360937237/app.o ../src/app.c    -DXPRJ_curiosity=$(CND_CONF)  -no-legacy-libc  $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
-	
-${OBJECTDIR}/_ext/1360937237/app1.o: ../src/app1.c  .generated_files/df0e16a06e22f0dda431893da2cdd38f9fe9fe85.flag .generated_files/3eda10ae19fa762b9b018eebb81f511d750eb34.flag
-	@${MKDIR} "${OBJECTDIR}/_ext/1360937237" 
-	@${RM} ${OBJECTDIR}/_ext/1360937237/app1.o.d 
-	@${RM} ${OBJECTDIR}/_ext/1360937237/app1.o 
-	${MP_CC}  $(MP_EXTRA_CC_PRE)  -g -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -ffunction-sections -O1 -I"../src/third_party/rtos/FreeRTOS/Source/portable/MPLAB/PIC32MZ" -I"../src/third_party/rtos/FreeRTOS/Source/include" -I"../src" -I"../src/config/curiosity" -I"../src/packs/PIC32MZ2048EFM144_DFP" -Werror -Wall -MP -MMD -MF "${OBJECTDIR}/_ext/1360937237/app1.o.d" -o ${OBJECTDIR}/_ext/1360937237/app1.o ../src/app1.c    -DXPRJ_curiosity=$(CND_CONF)  -no-legacy-libc  $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
-	
-${OBJECTDIR}/_ext/1360937237/app2.o: ../src/app2.c  .generated_files/1428c3eb2677d9511af643ad0f2d7b3d1fb60e6c.flag .generated_files/3eda10ae19fa762b9b018eebb81f511d750eb34.flag
-	@${MKDIR} "${OBJECTDIR}/_ext/1360937237" 
-	@${RM} ${OBJECTDIR}/_ext/1360937237/app2.o.d 
-	@${RM} ${OBJECTDIR}/_ext/1360937237/app2.o 
-	${MP_CC}  $(MP_EXTRA_CC_PRE)  -g -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -ffunction-sections -O1 -I"../src/third_party/rtos/FreeRTOS/Source/portable/MPLAB/PIC32MZ" -I"../src/third_party/rtos/FreeRTOS/Source/include" -I"../src" -I"../src/config/curiosity" -I"../src/packs/PIC32MZ2048EFM144_DFP" -Werror -Wall -MP -MMD -MF "${OBJECTDIR}/_ext/1360937237/app2.o.d" -o ${OBJECTDIR}/_ext/1360937237/app2.o ../src/app2.c    -DXPRJ_curiosity=$(CND_CONF)  -no-legacy-libc  $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
-	
-${OBJECTDIR}/_ext/1360937237/shared_resources.o: ../src/shared_resources.c  .generated_files/a9ebe34b065d1973fb3b67111ce1260141d21e73.flag .generated_files/3eda10ae19fa762b9b018eebb81f511d750eb34.flag
+${OBJECTDIR}/_ext/1360937237/shared_resources.o: ../src/shared_resources.c  .generated_files/54266088ff0705614845dd8e528dddc34777c8a4.flag .generated_files/3eda10ae19fa762b9b018eebb81f511d750eb34.flag
 	@${MKDIR} "${OBJECTDIR}/_ext/1360937237" 
 	@${RM} ${OBJECTDIR}/_ext/1360937237/shared_resources.o.d 
 	@${RM} ${OBJECTDIR}/_ext/1360937237/shared_resources.o 
 	${MP_CC}  $(MP_EXTRA_CC_PRE)  -g -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -ffunction-sections -O1 -I"../src/third_party/rtos/FreeRTOS/Source/portable/MPLAB/PIC32MZ" -I"../src/third_party/rtos/FreeRTOS/Source/include" -I"../src" -I"../src/config/curiosity" -I"../src/packs/PIC32MZ2048EFM144_DFP" -Werror -Wall -MP -MMD -MF "${OBJECTDIR}/_ext/1360937237/shared_resources.o.d" -o ${OBJECTDIR}/_ext/1360937237/shared_resources.o ../src/shared_resources.c    -DXPRJ_curiosity=$(CND_CONF)  -no-legacy-libc  $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
 	
-${OBJECTDIR}/_ext/1360937237/app3.o: ../src/app3.c  .generated_files/383527188152461636a983e7f67cf1181764052e.flag .generated_files/3eda10ae19fa762b9b018eebb81f511d750eb34.flag
+${OBJECTDIR}/_ext/1665200909/heap_1.o: ../src/third_party/rtos/FreeRTOS/Source/portable/MemMang/heap_1.c  .generated_files/5c43381534deeb2d9d9301178c41c4f01c02616a.flag .generated_files/3eda10ae19fa762b9b018eebb81f511d750eb34.flag
+	@${MKDIR} "${OBJECTDIR}/_ext/1665200909" 
+	@${RM} ${OBJECTDIR}/_ext/1665200909/heap_1.o.d 
+	@${RM} ${OBJECTDIR}/_ext/1665200909/heap_1.o 
+	${MP_CC}  $(MP_EXTRA_CC_PRE)  -g -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -ffunction-sections -O1 -I"../src/third_party/rtos/FreeRTOS/Source/portable/MPLAB/PIC32MZ" -I"../src/third_party/rtos/FreeRTOS/Source/include" -I"../src" -I"../src/config/curiosity" -I"../src/packs/PIC32MZ2048EFM144_DFP" -Werror -Wall -MP -MMD -MF "${OBJECTDIR}/_ext/1665200909/heap_1.o.d" -o ${OBJECTDIR}/_ext/1665200909/heap_1.o ../src/third_party/rtos/FreeRTOS/Source/portable/MemMang/heap_1.c    -DXPRJ_curiosity=$(CND_CONF)  -no-legacy-libc  $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
+	
+${OBJECTDIR}/_ext/951553246/port.o: ../src/third_party/rtos/FreeRTOS/Source/portable/MPLAB/PIC32MZ/port.c  .generated_files/b64c0153ffc8947d30c3701abf0b4ad6a4d14ef8.flag .generated_files/3eda10ae19fa762b9b018eebb81f511d750eb34.flag
+	@${MKDIR} "${OBJECTDIR}/_ext/951553246" 
+	@${RM} ${OBJECTDIR}/_ext/951553246/port.o.d 
+	@${RM} ${OBJECTDIR}/_ext/951553246/port.o 
+	${MP_CC}  $(MP_EXTRA_CC_PRE)  -g -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -ffunction-sections -O1 -I"../src/third_party/rtos/FreeRTOS/Source/portable/MPLAB/PIC32MZ" -I"../src/third_party/rtos/FreeRTOS/Source/include" -I"../src" -I"../src/config/curiosity" -I"../src/packs/PIC32MZ2048EFM144_DFP" -Werror -Wall -MP -MMD -MF "${OBJECTDIR}/_ext/951553246/port.o.d" -o ${OBJECTDIR}/_ext/951553246/port.o ../src/third_party/rtos/FreeRTOS/Source/portable/MPLAB/PIC32MZ/port.c    -DXPRJ_curiosity=$(CND_CONF)  -no-legacy-libc  $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
+	
+${OBJECTDIR}/_ext/404212886/croutine.o: ../src/third_party/rtos/FreeRTOS/Source/croutine.c  .generated_files/f2dd36fdaebfee01c9faa8279b04fbac628889e0.flag .generated_files/3eda10ae19fa762b9b018eebb81f511d750eb34.flag
+	@${MKDIR} "${OBJECTDIR}/_ext/404212886" 
+	@${RM} ${OBJECTDIR}/_ext/404212886/croutine.o.d 
+	@${RM} ${OBJECTDIR}/_ext/404212886/croutine.o 
+	${MP_CC}  $(MP_EXTRA_CC_PRE)  -g -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -ffunction-sections -O1 -I"../src/third_party/rtos/FreeRTOS/Source/portable/MPLAB/PIC32MZ" -I"../src/third_party/rtos/FreeRTOS/Source/include" -I"../src" -I"../src/config/curiosity" -I"../src/packs/PIC32MZ2048EFM144_DFP" -Werror -Wall -MP -MMD -MF "${OBJECTDIR}/_ext/404212886/croutine.o.d" -o ${OBJECTDIR}/_ext/404212886/croutine.o ../src/third_party/rtos/FreeRTOS/Source/croutine.c    -DXPRJ_curiosity=$(CND_CONF)  -no-legacy-libc  $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
+	
+${OBJECTDIR}/_ext/404212886/list.o: ../src/third_party/rtos/FreeRTOS/Source/list.c  .generated_files/8ee96a1ad463d4d75b8964ad1053607cb407db5f.flag .generated_files/3eda10ae19fa762b9b018eebb81f511d750eb34.flag
+	@${MKDIR} "${OBJECTDIR}/_ext/404212886" 
+	@${RM} ${OBJECTDIR}/_ext/404212886/list.o.d 
+	@${RM} ${OBJECTDIR}/_ext/404212886/list.o 
+	${MP_CC}  $(MP_EXTRA_CC_PRE)  -g -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -ffunction-sections -O1 -I"../src/third_party/rtos/FreeRTOS/Source/portable/MPLAB/PIC32MZ" -I"../src/third_party/rtos/FreeRTOS/Source/include" -I"../src" -I"../src/config/curiosity" -I"../src/packs/PIC32MZ2048EFM144_DFP" -Werror -Wall -MP -MMD -MF "${OBJECTDIR}/_ext/404212886/list.o.d" -o ${OBJECTDIR}/_ext/404212886/list.o ../src/third_party/rtos/FreeRTOS/Source/list.c    -DXPRJ_curiosity=$(CND_CONF)  -no-legacy-libc  $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
+	
+${OBJECTDIR}/_ext/404212886/queue.o: ../src/third_party/rtos/FreeRTOS/Source/queue.c  .generated_files/84725390130238a81c495550f0d9d40703886974.flag .generated_files/3eda10ae19fa762b9b018eebb81f511d750eb34.flag
+	@${MKDIR} "${OBJECTDIR}/_ext/404212886" 
+	@${RM} ${OBJECTDIR}/_ext/404212886/queue.o.d 
+	@${RM} ${OBJECTDIR}/_ext/404212886/queue.o 
+	${MP_CC}  $(MP_EXTRA_CC_PRE)  -g -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -ffunction-sections -O1 -I"../src/third_party/rtos/FreeRTOS/Source/portable/MPLAB/PIC32MZ" -I"../src/third_party/rtos/FreeRTOS/Source/include" -I"../src" -I"../src/config/curiosity" -I"../src/packs/PIC32MZ2048EFM144_DFP" -Werror -Wall -MP -MMD -MF "${OBJECTDIR}/_ext/404212886/queue.o.d" -o ${OBJECTDIR}/_ext/404212886/queue.o ../src/third_party/rtos/FreeRTOS/Source/queue.c    -DXPRJ_curiosity=$(CND_CONF)  -no-legacy-libc  $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
+	
+${OBJECTDIR}/_ext/404212886/FreeRTOS_tasks.o: ../src/third_party/rtos/FreeRTOS/Source/FreeRTOS_tasks.c  .generated_files/4fc85a8974ded6d3a0a1f248c9b0c658960b77a9.flag .generated_files/3eda10ae19fa762b9b018eebb81f511d750eb34.flag
+	@${MKDIR} "${OBJECTDIR}/_ext/404212886" 
+	@${RM} ${OBJECTDIR}/_ext/404212886/FreeRTOS_tasks.o.d 
+	@${RM} ${OBJECTDIR}/_ext/404212886/FreeRTOS_tasks.o 
+	${MP_CC}  $(MP_EXTRA_CC_PRE)  -g -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -ffunction-sections -O1 -I"../src/third_party/rtos/FreeRTOS/Source/portable/MPLAB/PIC32MZ" -I"../src/third_party/rtos/FreeRTOS/Source/include" -I"../src" -I"../src/config/curiosity" -I"../src/packs/PIC32MZ2048EFM144_DFP" -Werror -Wall -MP -MMD -MF "${OBJECTDIR}/_ext/404212886/FreeRTOS_tasks.o.d" -o ${OBJECTDIR}/_ext/404212886/FreeRTOS_tasks.o ../src/third_party/rtos/FreeRTOS/Source/FreeRTOS_tasks.c    -DXPRJ_curiosity=$(CND_CONF)  -no-legacy-libc  $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
+	
+${OBJECTDIR}/_ext/404212886/timers.o: ../src/third_party/rtos/FreeRTOS/Source/timers.c  .generated_files/59e86ead78e82545b41ed5ff7af7ba24a66aa0cc.flag .generated_files/3eda10ae19fa762b9b018eebb81f511d750eb34.flag
+	@${MKDIR} "${OBJECTDIR}/_ext/404212886" 
+	@${RM} ${OBJECTDIR}/_ext/404212886/timers.o.d 
+	@${RM} ${OBJECTDIR}/_ext/404212886/timers.o 
+	${MP_CC}  $(MP_EXTRA_CC_PRE)  -g -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -ffunction-sections -O1 -I"../src/third_party/rtos/FreeRTOS/Source/portable/MPLAB/PIC32MZ" -I"../src/third_party/rtos/FreeRTOS/Source/include" -I"../src" -I"../src/config/curiosity" -I"../src/packs/PIC32MZ2048EFM144_DFP" -Werror -Wall -MP -MMD -MF "${OBJECTDIR}/_ext/404212886/timers.o.d" -o ${OBJECTDIR}/_ext/404212886/timers.o ../src/third_party/rtos/FreeRTOS/Source/timers.c    -DXPRJ_curiosity=$(CND_CONF)  -no-legacy-libc  $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
+	
+${OBJECTDIR}/_ext/404212886/event_groups.o: ../src/third_party/rtos/FreeRTOS/Source/event_groups.c  .generated_files/36955b43b1258b64fdfa237ba35dadd84b575731.flag .generated_files/3eda10ae19fa762b9b018eebb81f511d750eb34.flag
+	@${MKDIR} "${OBJECTDIR}/_ext/404212886" 
+	@${RM} ${OBJECTDIR}/_ext/404212886/event_groups.o.d 
+	@${RM} ${OBJECTDIR}/_ext/404212886/event_groups.o 
+	${MP_CC}  $(MP_EXTRA_CC_PRE)  -g -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -ffunction-sections -O1 -I"../src/third_party/rtos/FreeRTOS/Source/portable/MPLAB/PIC32MZ" -I"../src/third_party/rtos/FreeRTOS/Source/include" -I"../src" -I"../src/config/curiosity" -I"../src/packs/PIC32MZ2048EFM144_DFP" -Werror -Wall -MP -MMD -MF "${OBJECTDIR}/_ext/404212886/event_groups.o.d" -o ${OBJECTDIR}/_ext/404212886/event_groups.o ../src/third_party/rtos/FreeRTOS/Source/event_groups.c    -DXPRJ_curiosity=$(CND_CONF)  -no-legacy-libc  $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
+	
+${OBJECTDIR}/_ext/404212886/stream_buffer.o: ../src/third_party/rtos/FreeRTOS/Source/stream_buffer.c  .generated_files/6659ec56ede22b42abd3375504800eeedfeafe79.flag .generated_files/3eda10ae19fa762b9b018eebb81f511d750eb34.flag
+	@${MKDIR} "${OBJECTDIR}/_ext/404212886" 
+	@${RM} ${OBJECTDIR}/_ext/404212886/stream_buffer.o.d 
+	@${RM} ${OBJECTDIR}/_ext/404212886/stream_buffer.o 
+	${MP_CC}  $(MP_EXTRA_CC_PRE)  -g -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -ffunction-sections -O1 -I"../src/third_party/rtos/FreeRTOS/Source/portable/MPLAB/PIC32MZ" -I"../src/third_party/rtos/FreeRTOS/Source/include" -I"../src" -I"../src/config/curiosity" -I"../src/packs/PIC32MZ2048EFM144_DFP" -Werror -Wall -MP -MMD -MF "${OBJECTDIR}/_ext/404212886/stream_buffer.o.d" -o ${OBJECTDIR}/_ext/404212886/stream_buffer.o ../src/third_party/rtos/FreeRTOS/Source/stream_buffer.c    -DXPRJ_curiosity=$(CND_CONF)  -no-legacy-libc  $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
+	
+${OBJECTDIR}/_ext/1360937237/main.o: ../src/main.c  .generated_files/927848d55f8a97987fb8436183d0b5462b27bc78.flag .generated_files/3eda10ae19fa762b9b018eebb81f511d750eb34.flag
+	@${MKDIR} "${OBJECTDIR}/_ext/1360937237" 
+	@${RM} ${OBJECTDIR}/_ext/1360937237/main.o.d 
+	@${RM} ${OBJECTDIR}/_ext/1360937237/main.o 
+	${MP_CC}  $(MP_EXTRA_CC_PRE)  -g -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -ffunction-sections -O1 -I"../src/third_party/rtos/FreeRTOS/Source/portable/MPLAB/PIC32MZ" -I"../src/third_party/rtos/FreeRTOS/Source/include" -I"../src" -I"../src/config/curiosity" -I"../src/packs/PIC32MZ2048EFM144_DFP" -Werror -Wall -MP -MMD -MF "${OBJECTDIR}/_ext/1360937237/main.o.d" -o ${OBJECTDIR}/_ext/1360937237/main.o ../src/main.c    -DXPRJ_curiosity=$(CND_CONF)  -no-legacy-libc  $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
+	
+${OBJECTDIR}/_ext/1360937237/app.o: ../src/app.c  .generated_files/d0ca3bab1b489dd5e365ea85130e3f31fc58c908.flag .generated_files/3eda10ae19fa762b9b018eebb81f511d750eb34.flag
+	@${MKDIR} "${OBJECTDIR}/_ext/1360937237" 
+	@${RM} ${OBJECTDIR}/_ext/1360937237/app.o.d 
+	@${RM} ${OBJECTDIR}/_ext/1360937237/app.o 
+	${MP_CC}  $(MP_EXTRA_CC_PRE)  -g -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -ffunction-sections -O1 -I"../src/third_party/rtos/FreeRTOS/Source/portable/MPLAB/PIC32MZ" -I"../src/third_party/rtos/FreeRTOS/Source/include" -I"../src" -I"../src/config/curiosity" -I"../src/packs/PIC32MZ2048EFM144_DFP" -Werror -Wall -MP -MMD -MF "${OBJECTDIR}/_ext/1360937237/app.o.d" -o ${OBJECTDIR}/_ext/1360937237/app.o ../src/app.c    -DXPRJ_curiosity=$(CND_CONF)  -no-legacy-libc  $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
+	
+${OBJECTDIR}/_ext/1360937237/app1.o: ../src/app1.c  .generated_files/e3b3b361316a89616648a51227058b3381b61c21.flag .generated_files/3eda10ae19fa762b9b018eebb81f511d750eb34.flag
+	@${MKDIR} "${OBJECTDIR}/_ext/1360937237" 
+	@${RM} ${OBJECTDIR}/_ext/1360937237/app1.o.d 
+	@${RM} ${OBJECTDIR}/_ext/1360937237/app1.o 
+	${MP_CC}  $(MP_EXTRA_CC_PRE)  -g -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -ffunction-sections -O1 -I"../src/third_party/rtos/FreeRTOS/Source/portable/MPLAB/PIC32MZ" -I"../src/third_party/rtos/FreeRTOS/Source/include" -I"../src" -I"../src/config/curiosity" -I"../src/packs/PIC32MZ2048EFM144_DFP" -Werror -Wall -MP -MMD -MF "${OBJECTDIR}/_ext/1360937237/app1.o.d" -o ${OBJECTDIR}/_ext/1360937237/app1.o ../src/app1.c    -DXPRJ_curiosity=$(CND_CONF)  -no-legacy-libc  $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
+	
+${OBJECTDIR}/_ext/1360937237/app2.o: ../src/app2.c  .generated_files/c070dc4447d8f644a05de50f2bec03108d4e8c86.flag .generated_files/3eda10ae19fa762b9b018eebb81f511d750eb34.flag
+	@${MKDIR} "${OBJECTDIR}/_ext/1360937237" 
+	@${RM} ${OBJECTDIR}/_ext/1360937237/app2.o.d 
+	@${RM} ${OBJECTDIR}/_ext/1360937237/app2.o 
+	${MP_CC}  $(MP_EXTRA_CC_PRE)  -g -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -ffunction-sections -O1 -I"../src/third_party/rtos/FreeRTOS/Source/portable/MPLAB/PIC32MZ" -I"../src/third_party/rtos/FreeRTOS/Source/include" -I"../src" -I"../src/config/curiosity" -I"../src/packs/PIC32MZ2048EFM144_DFP" -Werror -Wall -MP -MMD -MF "${OBJECTDIR}/_ext/1360937237/app2.o.d" -o ${OBJECTDIR}/_ext/1360937237/app2.o ../src/app2.c    -DXPRJ_curiosity=$(CND_CONF)  -no-legacy-libc  $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
+	
+${OBJECTDIR}/_ext/1360937237/app3.o: ../src/app3.c  .generated_files/99cfd2a28b1dede7b283450e251ecfed860c6175.flag .generated_files/3eda10ae19fa762b9b018eebb81f511d750eb34.flag
 	@${MKDIR} "${OBJECTDIR}/_ext/1360937237" 
 	@${RM} ${OBJECTDIR}/_ext/1360937237/app3.o.d 
 	@${RM} ${OBJECTDIR}/_ext/1360937237/app3.o 

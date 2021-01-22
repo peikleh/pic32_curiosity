@@ -44,6 +44,7 @@ uint32_t getValue(void){
 }
 void initializeTimer(void){
     TMR2_Initialize();
+    TMR2_Start();
 }
 
 int main ( void )

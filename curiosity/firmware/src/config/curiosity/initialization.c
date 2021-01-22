@@ -182,16 +182,6 @@ void SYS_Initialize ( void* data )
 
 	UART6_Initialize();
 
-
-
-
-
-    APP_Initialize();
-    APP1_Initialize();
-    APP2_Initialize();
-    APP3_Initialize();
-
-
     EVIC_Initialize();
 
 	/* Enable global interrupts */
